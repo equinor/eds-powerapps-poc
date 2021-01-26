@@ -6,7 +6,7 @@ There’s an unoffical tool called [Theme Editor][] that can be used to create a
 
 ## Source control
 
-A canvas app can be exported as a .msapp file, which is basically a zip-file. This file can be extraced using an app called PASopa, mentioned in a blog post called [“Source code files for Canvas apps”][] from January 14. The app itself can be cloned from a Github repo, and must be built with .NET to be used. 
+A canvas app can be exported as a .msapp file, which is basically a zip-file. This file can be extraced using an app called PASopa, mentioned in a blog post called [“Source code files for Canvas apps”][] from January 14. The app itself can be cloned from a Github repo, and must be built with .NET to be used.
 
-[Source code files for Canvas apps]: https://powerapps.microsoft.com/en-us/blog/source-code-files-for-canvas-apps/
+[“Source code files for Canvas apps”]: https://powerapps.microsoft.com/en-us/blog/source-code-files-for-canvas-apps/
 [Theme Editor]: https://github.com/microsoft/powerapps-tools

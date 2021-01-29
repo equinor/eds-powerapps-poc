@@ -1,0 +1,86 @@
+Menu As CanvasComponent:
+    Items: |-
+        =Table(
+          {
+            Item: "Sample", //This is to receive the menu item name.
+            Screen: App.ActiveScreen //This is to receive the menu screen name.
+          }
+        )
+    varMenuVisible: =varShowGallery
+    ZIndex: =1
+    Y: =0
+    X: =0
+    Width: =274
+    Height: =If(Self.varMenuVisible, App.Height, 82)
+    Fill: =RGBA(0, 0, 0, 0)
+    OnReset: =Set(varShowGallery, false)
+
+    GalleryMenu As gallery.galleryVertical:
+        Items: =colTheMenu
+        TemplateSize: =38
+        BorderColor: =RGBA(142, 166, 175, 1)
+        Layout: =Layout.Vertical
+        ZIndex: =1
+        Height: =693
+        Width: =272
+        Y: =75
+        X: =1
+        Fill: =White
+        Visible: =varShowGallery
+
+        MenuButton As button:
+            Text: =ThisItem.Item
+            HoverFill: =White
+            ZIndex: =1
+            RadiusBottomLeft: =0
+            Height: =38
+            Width: =264
+            BorderThickness: =0
+            RadiusBottomRight: =0
+            RadiusTopRight: =0
+            RadiusTopLeft: =0
+            Align: =Align.Left
+            FontWeight: =If(Self.DisplayMode = DisplayMode.Edit, FontWeight.Normal, FontWeight.Bold)
+            Fill: =RGBA(255, 255, 255, 1)
+            DisplayMode: =If(ThisItem.Screen = App.ActiveScreen, DisplayMode.Disabled, DisplayMode.Edit)
+            Color: =RGBA(29, 37, 40, 1)
+            PressedFill: =White
+            DisabledFill: =White
+            BorderColor: =Self.Fill
+            HoverColor: =RGBA(40, 128, 124, 1)
+            DisabledColor: =Self.Color
+            HoverBorderColor: =ColorFade(Self.BorderColor, (-15 * 1.3)%)
+            PressedBorderColor: =ColorFade(Self.BorderColor, (-20 * 1.3)%)
+            DisabledBorderColor: =ColorFade(Self.BorderColor, 50%)
+            PaddingLeft: =15
+            OnSelect: =Navigate(ThisItem.Screen)
+
+    MenuTopFill As rectangle:
+        Width: =273
+        ZIndex: =2
+        Height: =75
+        BorderColor: =White
+        Fill: =White
+        Visible: =varShowGallery
+
+    MenuLine As rectangle:
+        Width: =3
+        ZIndex: =3
+        Height: =768
+        BorderColor: =RGBA(142, 166, 175, 1)
+        Fill: =RGBA(142, 166, 175, 1)
+        Visible: =varShowGallery
+
+    MenuIcon As icon.Hamburger:
+        Y: =5
+        X: =200
+        ZIndex: =4
+        DisabledBorderColor: =RGBA(142, 166, 175, 1)
+        BorderColor: =RGBA(142, 166, 175, 1)
+        DisabledColor: =RGBA(247, 247, 247, 1)
+        Color: =RGBA(29, 37, 40, 1)
+        Icon: =Icon.Hamburger
+        Height: =60
+        Width: =60
+        OnSelect: =Set(varShowGallery, !varShowGallery)
+

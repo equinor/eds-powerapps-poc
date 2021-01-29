@@ -1,0 +1,163 @@
+InputControls As screen:
+    Width: =Max(App.Width, App.DesignWidth)
+    Height: =Max(App.Height, App.DesignHeight)
+    Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= InputControls.Width)
+    Orientation: =If(InputControls.Width < InputControls.Height, Layout.Vertical, Layout.Horizontal)
+    OnHidden: =Reset(Menu_2)
+
+    RichTextEditor_Sample As richTextEditor:
+        Default: ="Enter some <strong>rich text</strong> here."
+        AccessibleLabel: ="RichTextEditor_Sample"
+        ZIndex: =1
+        Width: =402
+        Y: =172
+        X: =40
+
+    PenInput_Sample As inkControl:
+        AccessibleLabel: ="PenInput_Sample"
+        ZIndex: =2
+        Y: =345
+        X: =40
+        Width: =402
+
+    ComboBox_Sample As combobox:
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox_Sample.SearchText,"Value1")
+        AccessibleLabel: ="ComboBox_Sample"
+        Y: =282
+        X: =501
+        ZIndex: =3
+        MoreItemsButtonColor: =ComboBox_Sample.ChevronBackground
+
+    DatePicker_Sample As datepicker:
+        InputTextPlaceholder: =Text(Date(2001,12,31), Self.Format, Self.Language)
+        AccessibleLabel: ="DatePicker_Sample"
+        ZIndex: =4
+        Y: =380
+        X: =501
+        HoverFill: =DatePicker_Sample.Fill
+        PressedFill: =DatePicker_Sample.Fill
+        HoverBorderColor: =DatePicker_Sample.BorderColor
+        PressedBorderColor: =DatePicker_Sample.BorderColor
+
+    ListBox_Sample As listbox:
+        Items: =ListboxSample
+        AccessibleLabel: ="ListBox_Sample"
+        ZIndex: =5
+        Y: =471
+        X: =501
+
+    Checkbox_Sample As checkbox:
+        Text: ="Option"
+        ZIndex: =6
+        Y: =133
+        X: =935
+
+    Radio_Sample As radio:
+        Items: =RadioSample
+        ZIndex: =7
+        Y: =133
+        X: =1085
+
+    Toggle_Sample As toggleSwitch:
+        AccessibleLabel: ="Toggle_Sample"
+        Y: =144
+        X: =1217
+        ZIndex: =8
+
+    Label_Dropdown As label:
+        Text: ="Drop down"
+        ZIndex: =9
+        Y: =158
+        X: =501
+
+    Label_Combobox As label:
+        Text: ="Combo box"
+        ZIndex: =10
+        Y: =248
+        X: =501
+
+    Label_Datepicker As label:
+        Text: ="Date picker"
+        ZIndex: =11
+        Y: =345
+        X: =501
+
+    Label_Listbox As label:
+        Text: ="List box"
+        ZIndex: =12
+        Y: =435
+        X: =501
+
+    Label_Checkbox As label:
+        Text: ="Checkbox"
+        ZIndex: =13
+        Y: =93
+        X: =940
+
+    Checkbox_Sample1 As checkbox:
+        Text: ="Option"
+        ZIndex: =14
+        Y: =172
+        X: =935
+
+    Label_Radio As label:
+        Text: ="Radio"
+        ZIndex: =15
+        Y: =93
+        X: =1090
+
+    Label_Toggle As label:
+        Text: ="Toggle"
+        ZIndex: =16
+        Y: =93
+        X: =1212
+
+    Dropdown_Sample As dropdown:
+        Items: =DropDownSample
+        AccessibleLabel: ="Dropdown_Sample"
+        ZIndex: =23
+        Y: =193
+        X: =501
+
+    Label_Instructions As label:
+        Text: ="No need to copy/paste these controls - just for demo purposes."
+        BorderThickness: =2
+        ZIndex: =24
+        PaddingLeft: =20
+        Height: =67
+        Width: =402
+        Y: =91
+        X: =40
+        FontWeight: =FontWeight.Bold
+        BorderColor: =Button.FillDanger
+
+    TextInput_Sample As text:
+        Default: ="Text input"
+        Tooltip: ="Example Text Input"
+        AccessibleLabel: ="Example Text Input"
+        ZIndex: =25
+        Y: =100
+        X: =498
+
+    Footer_3 As Footer:
+        Y: =699
+        ZIndex: =26
+
+    Header_2 As Header:
+        IsDebugMode: =IsDebugMode
+        ZIndex: =27
+
+    Button_Next_1 As button:
+        Text: ="Next"
+        Color: =Colors.TextMain
+        Fill: =Colors.Primary1
+        X: =Button.NavigationNextX
+        Y: =Button.NavigationNextY
+        ZIndex: =29
+        OnSelect: =Navigate(BasicDisplayControls);
+
+    Menu_2 As Menu:
+        ZIndex: =30
+        X: =1092
+

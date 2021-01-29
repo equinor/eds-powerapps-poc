@@ -1,0 +1,22 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Footer",
+    "TemplateGuid": "8ff1c624584349e68faa7ebbc8a0a0fd"
+  },
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "LastModifiedTimestamp": "637327485748673222",
+  "Name": "8ff1c624584349e68faa7ebbc8a0a0fd",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "00ac7dc5e8fc4926bd992a57aa349976",
+  "Version": "637327596554373228"
+}

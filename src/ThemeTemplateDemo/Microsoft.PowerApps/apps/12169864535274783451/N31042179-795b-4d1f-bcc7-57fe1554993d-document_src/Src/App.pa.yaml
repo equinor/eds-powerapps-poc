@@ -1,0 +1,104 @@
+App As appinfo:
+    OnStart: |-
+        =Set(IsDebugMode, false);
+        
+        Set(Colors, {
+            Primary1: RGBA(246, 208, 50, 1),   // default (56, 96, 178, 1)
+            Primary2: RGBA(40, 44, 55, 1),    // d (0, 18, 107, 1)
+            Primary3: RGBA(245, 245, 245, 1),  // d (186, 202, 226, 1)
+            TextMain: RGBA(0, 0, 0, 1),     // d (0, 0, 0, 1)
+            TextLink: RGBA(0, 134, 208, 1),    // d (0, 134, 208, 1)
+            Black: RGBA(0, 0, 0, 1),           // d (0, 0, 0, 1)
+            Gray: RGBA(166, 166, 166, 1),      // d (166, 166, 166, 1)
+            LightGray: RGBA(245, 245, 245, 1), // d (244, 244, 244, 1)
+            White: RGBA(255, 255, 255, 1)      // d (255, 255, 255, 1)
+        });
+        
+        Concurrent(
+            Set(Input, {
+                BorderColor: Colors.Primary2,    // d Colors.Primary2
+                BorderThickness: 1,          // d 2
+                FocusedBorderThickness: 2,   // d 4
+                Color: Colors.TextMain // d Colors.Black
+            }),
+            Set(Button, {
+                BorderDarkness: -5,              // colorfade percentage of fill color (d -15)
+                Radius: 10,                      // d 10
+                DisabledPercent: 50,            // colorfade percentage of disabled border, color & fill (all buttons)
+                HoverPercent: -15,              // colorfade percentage of hover border & fill (all buttons but link)
+                HoverColorPercent: -25,         // colorfade percentage of hover color (only link & outline buttons)
+                PressedPercent: -20,            // colorfade percentage of pressed border & fill (all buttons but link & outline)
+                Color: Colors.TextMain,            // for default buttons (d Colors.White)
+                Fill: Colors.Primary3,          // for default buttons (d Colors.Primary1)
+                FillDanger: RGBA(184, 0, 0, 1), // for danger buttons
+                Width: 160,                     // d 160
+                NavigationBackX: 1000,
+                NavigationBackY: 625,
+                NavigationNextX: 1180,
+                NavigationNextY: 625
+            }),
+            Set(CheckboxRadio, {
+                BorderColor: Colors.Primary2, // d Input.BorderColor
+                Fill: RGBA(0, 0, 0, 0)        // d (0, 0, 0, 0)
+            }),
+            Set(DataTable, {
+                HeadingBold: true,          // d false 
+                HeadingColorsInverted: true // d false
+            }),
+            Set(Heading, {
+                Bold: FontWeight.Bold,
+                LineColor: Colors.Primary1,
+                LineHeight: 6,
+                LineWidth: 80,
+                Size1: 28,
+                Size2: 24,
+                Size3: 18,
+                Size4: 14
+            }),
+            Set(Icons, {
+                Color: Colors.Primary2 // d Colors.Primary2
+            }),
+            Set(Toggle, {
+                Fill: RGBA(128, 130, 133, 1) // d (128, 130, 133, 1)
+            })
+        );
+        
+        ClearCollect(SampleCollection, 
+            {
+                Name: "John",
+                Department: "Sales",
+                EmployeedSince: "2015"
+            },{
+                Name: "Susan",
+                Department: "Marketing",
+                EmployeedSince: "2019"
+            },{
+                Name: "Dave",
+                Department: "Finance",
+                EmployeedSince: "2012"
+            }
+        );
+        
+        ClearCollect(colTheMenu,
+            {
+                Item: "Input Controls",
+                Screen: InputControls
+            },
+            {
+                Item: "Basic Display Controls",
+                Screen: BasicDisplayControls
+            },
+            {
+                Item: "Graphic Controls",
+                Screen: GraphicControls
+            },
+            {
+                Item: "Headings & Buttons",
+                Screen: 'Copy/Paste - Headings & Buttons'
+            },
+            {
+                Item: "Debug",
+                Screen: Debug
+            }
+        );
+

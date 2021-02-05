@@ -1,0 +1,347 @@
+[
+  {
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "colTheMenu",
+    "Schema": {
+      "Type": {
+        "EnumString": "",
+        "Kind": "Table",
+        "Name": "Root",
+        "Type": [
+          {
+            "EnumString": "",
+            "Kind": "String",
+            "Name": "Item",
+            "Type": []
+          },
+          {
+            "EnumString": "",
+            "Kind": "_LimPrimitive",
+            "Name": "Screen",
+            "Template": {
+              "ExpandoType": {
+                "Type": {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Root",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Image",
+                      "Name": "BackgroundImage",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Color",
+                      "Name": "Fill",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "%s[Center:\"center\", Fill:\"fill\", Fit:\"fit\", Stretch:\"stretch\", Tile:\"tile\"]",
+                      "Kind": "Enum",
+                      "Name": "ImagePosition",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Center",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Fill",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Fit",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Stretch",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Tile",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "%n[Controls:0, Data:1, None:2]",
+                      "Kind": "Enum",
+                      "Name": "LoadingSpinner",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Controls",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Data",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "None",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Color",
+                      "Name": "LoadingSpinnerColor",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Name",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Orientation",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Size",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                "Version": "1.291"
+              },
+              "Intangible": false,
+              "IsDataLimited": false,
+              "IsMetaLoc": false,
+              "Properties": [
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "Color",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "Fill",
+                  "PropertyDisplayName": "Fill",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "Image",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "BackgroundImage",
+                  "PropertyDisplayName": "Background image",
+                  "PropertyRuleCategory": "Data"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "%s[Center:\"center\", Fill:\"fill\", Fit:\"fit\", Stretch:\"stretch\", Tile:\"tile\"]",
+                      "Kind": "Enum",
+                      "Name": "Root",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Center",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Fill",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Fit",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Stretch",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "String",
+                          "Name": "Tile",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "ImagePosition",
+                  "PropertyDisplayName": "Image position",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "Height",
+                  "PropertyDisplayName": "Height",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "Width",
+                  "PropertyDisplayName": "Width",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "Size",
+                  "PropertyDisplayName": "Size",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "Orientation",
+                  "PropertyDisplayName": "Orientation",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "%n[Controls:0, Data:1, None:2]",
+                      "Kind": "Enum",
+                      "Name": "Root",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Controls",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Data",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "None",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "LoadingSpinner",
+                  "PropertyDisplayName": "Loading spinner",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "Color",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "LoadingSpinnerColor",
+                  "PropertyDisplayName": "Loading spinner color",
+                  "PropertyRuleCategory": "Design"
+                },
+                {
+                  "InvariantType": {
+                    "Type": {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Root",
+                      "Type": []
+                    },
+                    "Version": "1.291"
+                  },
+                  "Name": "Name",
+                  "PropertyDisplayName": "Name",
+                  "PropertyRuleCategory": "Design"
+                }
+              ],
+              "TemplateName": "screen"
+            }
+          }
+        ]
+      },
+      "Version": "1.291"
+    },
+    "Type": "CollectionDataSourceInfo"
+  }
+]

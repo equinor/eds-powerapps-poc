@@ -1,0 +1,215 @@
+"'Copy/Paste - Headings & Buttons' As screen":
+    Width: =Max(App.Width, App.DesignWidth)
+    Height: =Max(App.Height, App.DesignHeight)
+    Fill: =RGBA(255, 255, 255, 1)
+    LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= 'Copy/Paste - Headings & Buttons'.Width)
+    Orientation: =If('Copy/Paste - Headings & Buttons'.Width < 'Copy/Paste - Headings & Buttons'.Height, Layout.Vertical, Layout.Horizontal)
+    OnVisible: =
+    OnHidden: =Reset(Menu_1)
+
+    Footer_1 As Footer:
+        Y: =699
+
+    Header_1 As Header:
+        IsDebugMode: =IsDebugMode
+        ZIndex: =2
+
+    Button_Back As button:
+        Text: ="Back"
+        Y: =Button.NavigationBackY
+        X: =Button.NavigationBackX
+        ZIndex: =3
+        OnSelect: =Navigate(GraphicControls)
+
+    Button_Next As button:
+        Text: ="Next"
+        Color: =Colors.TextMain
+        Fill: =Colors.Primary1
+        X: =Button.NavigationNextX
+        Y: =Button.NavigationNextY
+        ZIndex: =4
+        OnSelect: =Navigate(Debug)
+
+    Button_Primary As button:
+        Text: ="Primary"
+        Color: =Colors.TextMain
+        Fill: =Colors.Primary1
+        X: =1091
+        Y: =177
+        ZIndex: =5
+
+    Button_Danger As button:
+        Text: ="Danger"
+        Y: =241
+        X: =1091
+        ZIndex: =6
+        Fill: =Button.FillDanger
+        Color: =Colors.White
+
+    Button_Outline As button:
+        Text: ="Outline"
+        Y: =305
+        BorderThickness: =1
+        X: =1091
+        ZIndex: =7
+        Fill: =RGBA(0, 0, 0, 0)
+        Color: =Colors.Primary1
+        HoverFill: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        BorderColor: =Colors.Primary1
+        HoverColor: =ColorFade(Self.Color, Button.HoverColorPercent%)
+        PressedBorderColor: =Self.BorderColor
+
+    Button_Link As button:
+        Text: ="Link"
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(Self.Color, Button.HoverColorPercent%)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        Color: =Colors.TextLink
+        ZIndex: =8
+        X: =1091
+        Y: =370
+        BorderThickness: =1
+
+    Label_Heading1_Text As label:
+        Text: ="Heading 1"
+        Size: =Heading.Size1
+        ZIndex: =9
+        Height: =47
+        Width: =200
+        Y: =163
+        X: =413
+        FontWeight: =Heading.Bold
+
+    Label_Heading1_Line As rectangle:
+        Width: =Heading.LineWidth
+        ZIndex: =10
+        Y: =210
+        X: =417
+        Height: =Heading.LineHeight
+        BorderStyle: =BorderStyle.None
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =Heading.LineColor
+
+    Label_Heading1 As group:
+        ZIndex: =10
+        Height: =5
+        Width: =5
+        Y: =40
+        X: =40
+
+    Label_Heading2 As label:
+        Text: ="Heading 2"
+        Size: =Heading.Size2
+        FontWeight: =Heading.Bold
+        X: =413
+        Y: =236
+        Width: =174
+        Height: =47
+        ZIndex: =11
+
+    Label_Heading3 As label:
+        Text: ="Heading 3"
+        Size: =Heading.Size3
+        ZIndex: =12
+        Width: =135
+        Y: =305
+        X: =413
+        FontWeight: =Heading.Bold
+
+    Label_Heading4 As label:
+        Text: ="Heading 4"
+        Size: =Heading.Size4
+        FontWeight: =Heading.Bold
+        X: =413
+        Y: =368
+        Width: =110
+        Height: =32
+        ZIndex: =13
+
+    Label7 As label:
+        Text: |-
+            ="Copy/paste headings & buttons to use on other pages 
+            "
+        X: =738
+        Y: =181
+        Width: =195
+        Height: =90
+        ZIndex: =14
+
+    Label8 As label:
+        Text: ="Copy/paste header & footer to each page"
+        X: =54
+        Y: =319
+        Width: =199
+        Height: =94
+        ZIndex: =15
+
+    Label8_1 As label:
+        Text: |-
+            ="Copy/paste navigation buttons to each page so they appear in the same spot 
+            
+            (X & Y coordinate variables set in OnStart in case you want to change them all later)"
+        X: =482
+        Y: =550
+        Width: =373
+        Height: =115
+        ZIndex: =16
+
+    Icon5 As icon.ArrowUp:
+        Icon: =Icon.ArrowUp
+        X: =95
+        Y: =220
+        Height: =95
+        ZIndex: =17
+
+    Icon6 As icon.ArrowDown:
+        X: =95
+        Y: =438
+        ZIndex: =18
+
+    Icon7 As icon.ArrowLeft:
+        Icon: =Icon.ArrowLeft
+        X: =654
+        Y: =210
+        ZIndex: =19
+
+    Icon8 As icon.ArrowRight:
+        Icon: =Icon.ArrowRight
+        X: =953
+        Y: =210
+        ZIndex: =20
+
+    Icon8_1 As icon.ArrowRight:
+        Icon: =Icon.ArrowRight
+        X: =902
+        Y: =601
+        ZIndex: =21
+
+    HtmlText2 As htmlViewer:
+        HtmlText: ="(default light gray button still under <b>Insert => Button</b>)"
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Color: =Colors.TextMain
+        Fill: =RGBA(0, 0, 0, 0)
+        BorderColor: =Input.BorderColor
+        PressedBorderColor: =HtmlText2.BorderColor
+        BorderStyle: =BorderStyle.Solid
+        Width: =195
+        Height: =97
+        X: =738
+        Y: =275
+        ZIndex: =22
+        Size: =14
+
+    Menu_1 As Menu:
+        ZIndex: =23
+        X: =1092
+

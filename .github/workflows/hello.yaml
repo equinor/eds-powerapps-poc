@@ -12,9 +12,9 @@ jobs:
       RUNNER_DEBUG: 1
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        lfs: true
+#    - uses: actions/checkout@v2
+#      with:
+#        lfs: true
 
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0

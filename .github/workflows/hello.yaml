@@ -19,9 +19,10 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'edsdev.crm4.dynamics.com'
+        environment-url: 'https://edsdev.crm4.dynamics.com'
         user-name: 'EDSPowerApptemplate'
         password-secret: ${{ secrets.password }}
+        app-id: dfab4afd-0e14-48ee-997e-04e8defbcf6f
 
 #    - name: export-solution action
 #      uses: microsoft/powerplatform-actions/export-solution@v0

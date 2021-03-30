@@ -47,4 +47,4 @@ jobs:
         force-overwrite: 'true'
         activate-plugins: 'true'
         publish-changes: 'true'
-        
+        import-as-holding: 'true'

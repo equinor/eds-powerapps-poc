@@ -21,5 +21,5 @@ jobs:
       with:
         environment-url: 'https://edsdevvnys.crm4.dynamics.com'
         client-secret: ${{ secrets.password }}
-        #app-id: 'dfab4afd-0e14-48ee-997e-04e8defbcf6f'
+        app-id: 'dfab4afd-0e14-48ee-997e-04e8defbcf6f'
         tenant-id: '3aa4a235-b6e2-48d5-9195-7fcf05b459b0'

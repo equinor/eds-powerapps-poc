@@ -29,12 +29,12 @@ jobs:
         app-id: 'dfab4afd-0e14-48ee-997e-04e8defbcf6f'
         tenant-id: '3aa4a235-b6e2-48d5-9195-7fcf05b459b0'
         
-#    - name: pack-solution
-#      uses: 'microsoft/powerplatform-actions/pack-solution@v0'
-#      with:
-#        solution-file: 'out/packed/EDSTemplate.zip'
-#        solution-folder: 'solutions/EDSTemplate'
-#        solution-type: 'Unmanaged'
+    - name: pack-solution
+      uses: 'microsoft/powerplatform-actions/pack-solution@v0'
+      with:
+        solution-file: 'out/packed/EDSTemplate.zip'
+        solution-folder: 'solutions/EDSTemplate'
+        solution-type: 'Unmanaged'
 
                 
         

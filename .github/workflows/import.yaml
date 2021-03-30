@@ -1,0 +1,25 @@
+name: import-solution
+# Import solution from Github repo
+# TODO: Use PASOpa to pack the .msapp file
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import-from-repo:
+    runs-on: windows-latest
+    env:
+      RUNNER_DEBUG: 1
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+
+    - name: who-am-i action
+      uses: microsoft/powerplatform-actions/who-am-i@v0
+      with:
+        environment-url: 'https://edsdevvnys.crm4.dynamics.com'
+        client-secret: ${{ secrets.password }}
+        #app-id: 'dfab4afd-0e14-48ee-997e-04e8defbcf6f'
+        tenant-id: '3aa4a235-b6e2-48d5-9195-7fcf05b459b0'

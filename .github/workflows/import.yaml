@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       target-environment:
-        description: 'Environment to import the solution to (edsdev, edsdevfri, edsdevvnys)'
+        description: 'Environment to import the solution to (edsdev, edsdevfre, edsdevvnys)'
         required: true
         default: 'edsdev'
 

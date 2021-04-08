@@ -29,9 +29,9 @@ jobs:
     #    dotnet-version: '3.1.x'
     - name: Display dotnet version
       run: dotnet --version
-    #- name: Build
-    #  working-directory: ./temp/pasopa/src
-    #  run: dotnet publish --output ./tools/pasopa --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+    - name: Build
+      working-directory: ./temp/pasopa/src/PASopa
+      run: dotnet publish --output ./tools/pasopa --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
      # run: build ci
      # shell: cmd
     #- name: Test that it works

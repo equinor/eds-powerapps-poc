@@ -29,6 +29,10 @@ jobs:
     - name: Build
       working-directory: ./temp/pasopa/src/PASopa
       run: dotnet publish --output ./build --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+    
+    - name: Create tools dir
+      working-directory: .
+      run: mkdir -p tools
    
     - name: Move to tools
       working-directory: ./tools

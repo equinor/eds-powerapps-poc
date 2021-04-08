@@ -1,4 +1,4 @@
-name: add-pasopa
+name: build-pasopa
 # Clone the PowerApps Language repo
 # Build and commit PASopa.exe
 
@@ -32,7 +32,7 @@ jobs:
    
     - name: Move to tools
       working-directory: ./tools
-      run: mv ../temp/pasopa/src/PASopa/build/PASopa.exe .
+      run: mv -f ../temp/pasopa/src/PASopa/build/PASopa.exe .
     
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
@@ -40,6 +40,5 @@ jobs:
         author_name: github-actions
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
         message: 'Add PASopa'
-        remove: './tools/PASopa.exe'
         add: './tools/PASopa.exe'
         signoff: true

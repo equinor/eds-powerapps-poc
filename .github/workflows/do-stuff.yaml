@@ -18,13 +18,18 @@ jobs:
       shell: cmd
       run: cd
       
-    - name: echo path
-      shell: cmd
-      run: echo %PATH%
+    #- name: echo path
+     # shell: cmd
+     # run: echo %PATH%
       
-    - name: add to path
-      run: echo "##[add-path]D:\a\eds-powerapps-poc\eds-powerapps-poc\tools"
+    #- name: add to path
+    #  run: echo "##[add-path]D:\a\eds-powerapps-poc\eds-powerapps-poc\tools"
       
+    #- name: run pasopa
+    #  shell: cmd
+    #  run: which pasopa
+    
     - name: run pasopa
-      shell: cmd
-      run: which pasopa
+      #shell: cmd
+      run: tools\pasopa
+      

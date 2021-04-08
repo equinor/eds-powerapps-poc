@@ -29,5 +29,7 @@ jobs:
     - name: Display dotnet version
       run: dotnet --version
     - name: Build
-      run: ./temp/pasopa/src/build.cmd ci
+      working-directory: ./temp/pasopa
+      run: build ci
+      shell: cmd
     

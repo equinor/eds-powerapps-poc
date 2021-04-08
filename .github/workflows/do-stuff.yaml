@@ -14,5 +14,8 @@ jobs:
       with:
         lfs: true
         
-    - name: add tools to path
-      run: pwd
+    - name: echo home
+      run: echo %HOME%
+      
+    - name: echo path
+      run: echo %PATH%

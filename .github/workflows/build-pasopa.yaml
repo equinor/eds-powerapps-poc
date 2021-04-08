@@ -32,11 +32,13 @@ jobs:
     
     - name: Create tools dir
       working-directory: .
-      run: mkdir -p tools
+      shell: bash
+      run: mkdir -p tools      
    
     - name: Move to tools
       working-directory: ./tools
-      run: mv -Force ../temp/pasopa/src/PASopa/build/PASopa.exe .
+      shell: bash
+      run: mv -f ../temp/pasopa/src/PASopa/build/PASopa.exe .
     
     - name: Commit changes
       uses: EndBug/add-and-commit@v7

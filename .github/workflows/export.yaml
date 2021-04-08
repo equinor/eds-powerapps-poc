@@ -42,6 +42,10 @@ jobs:
         solution-folder: out/solutions/EDSTemplate
         solution-type: 'Unmanaged'
         overwrite-files: true
+        
+    - name: seriously unpack solution
+      #working-directory: out/solutions/EDSTemplate/CanvasApps
+      run: tools\pasopa -unpack out\solutions\EDSTemplate\CanvasApps\ 
 
     - name: branch-solution, prepare it for a PullRequest
       uses: microsoft/powerplatform-actions/branch-solution@v0

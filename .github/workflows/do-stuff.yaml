@@ -15,7 +15,9 @@ jobs:
         lfs: true
         
     - name: echo home
+      shell: cmd
       run: echo %HOME%
       
     - name: echo path
+      shell: cmd
       run: echo %PATH%

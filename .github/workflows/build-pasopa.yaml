@@ -40,5 +40,6 @@ jobs:
         author_name: github-actions
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
         message: 'Add PASopa'
+        remove: './tools/PASopa.exe'
         add: './tools/PASopa.exe'
         signoff: true

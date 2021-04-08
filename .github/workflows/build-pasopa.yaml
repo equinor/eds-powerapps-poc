@@ -1,6 +1,6 @@
-name: build-pasopa
-# Import solution from Github repo
-# TODO: Use PASOpa to pack the .msapp file
+name: add-pasopa
+# Clone the PowerApps Language repo
+# Build and commit PASopa.exe
 
 on:
   workflow_dispatch:
@@ -23,18 +23,17 @@ jobs:
         ref: '0.2.1-preview'
         path: temp/pasopa
         
-    #- name: Setup .NET Core SDK 3.x
-    #  uses: actions/setup-dotnet@v1.7.2
-    #  with:
-    #    dotnet-version: '3.1.x'
     - name: Display dotnet version
       run: dotnet --version
+      
     - name: Build
       working-directory: ./temp/pasopa/src/PASopa
       run: dotnet publish --output ./build --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+   
     - name: Move to tools
       working-directory: ./tools
       run: mv ../temp/pasopa/src/PASopa/build/PASopa.exe .
+    
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
       with:
@@ -42,15 +41,4 @@ jobs:
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
         message: 'Add PASopa'
         add: './tools/PASopa.exe'
-    #- name: branch-solution, prepare it for a PullRequest
-    #  uses: microsoft/powerplatform-actions/branch-solution@v0
-    #  with:
-    #    solution-folder: ./temp/pasopa/src/PASopa/build
-    #    solution-target-folder: tools
-    #    repo-token: ${{ secrets.GITHUB_TOKEN }}
-    #    allow-empty-commit: true     
-     # run: build ci
-     # shell: cmd
-    #- name: Test that it works
-    #  run: ./bin/Debug/PASopa/PASopa.dll
-    
+        signoff: true

@@ -1,4 +1,4 @@
-name: import-solution
+name: build-pasopa
 # Import solution from Github repo
 # TODO: Use PASOpa to pack the .msapp file
 

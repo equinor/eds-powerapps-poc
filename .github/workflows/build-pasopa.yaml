@@ -32,7 +32,7 @@ jobs:
    
     - name: Move to tools
       working-directory: ./tools
-      run: mv -f ../temp/pasopa/src/PASopa/build/PASopa.exe .
+      run: mv -Force ../temp/pasopa/src/PASopa/build/PASopa.exe .
     
     - name: Commit changes
       uses: EndBug/add-and-commit@v7

@@ -31,5 +31,7 @@ jobs:
     
     - name: run pasopa
       shell: cmd
-      run: tools\pasopa -unpack solutions\EDSTemplate\CanvasApps\*.msapp
+      working-directory: solutions\EDSTemplate
+      run: for /r %%v in (*.msapp) do tools\pasopa -unpack "%%v"
+      #run: tools\pasopa -unpack solutions\EDSTemplate\CanvasApps\*.msapp
       

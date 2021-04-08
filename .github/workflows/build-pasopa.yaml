@@ -31,7 +31,7 @@ jobs:
       run: dotnet publish --output ./build --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
     
     - name: Create tools dir
-      working-directory: .
+      #working-directory: .
       shell: bash
       run: mkdir -p tools      
    

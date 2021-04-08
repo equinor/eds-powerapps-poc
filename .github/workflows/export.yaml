@@ -44,8 +44,12 @@ jobs:
         overwrite-files: true
         
     - name: seriously unpack solution
-      #working-directory: out/solutions/EDSTemplate/CanvasApps
-      run: tools\pasopa -unpack out\solutions\EDSTemplate\CanvasApps\ 
+      shell: cmd
+      run: tools\pasopa -unpack solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp
+      
+    - name: remove .msapp file
+      shell: cmd
+      run: del solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp
 
     - name: branch-solution, prepare it for a PullRequest
       uses: microsoft/powerplatform-actions/branch-solution@v0

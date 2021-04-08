@@ -28,6 +28,6 @@ jobs:
         dotnet-version: '3.1.x'
     - name: Display dotnet version
       run: dotnet --version
-    #- name: Build
-    #  run: dotnet publish -r win10-x64 -p:PublishSingleFile=true --self-contained true temp/pasopa/src
+    - name: Build
+      run: dotnet publish -r win10-x64 -p:PublishSingleFile=true --self-contained true temp/pasopa/src
     

@@ -30,6 +30,6 @@ jobs:
     #  run: which pasopa
     
     - name: run pasopa
-      #shell: cmd
-      run: tools\pasopa
+      shell: cmd
+      run: tools\pasopa -unpack solutions\EDSTemplate\CanvasApps\*.msapp
       

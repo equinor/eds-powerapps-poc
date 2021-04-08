@@ -30,9 +30,10 @@ jobs:
     - name: Display dotnet version
       run: dotnet --version
     - name: Build
-      working-directory: ./temp/pasopa
-      run: build ci
-      shell: cmd
-    - name: Test that it works
-      run: ./bin/Debug/PASopa/PASopa.dll
+      working-directory: ./temp/pasopa/src
+      run: dotnet publish --output ./tools/pasopa --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+     # run: build ci
+     # shell: cmd
+    #- name: Test that it works
+    #  run: ./bin/Debug/PASopa/PASopa.dll
     

@@ -31,7 +31,15 @@ jobs:
       run: dotnet --version
     - name: Build
       working-directory: ./temp/pasopa/src/PASopa
-      run: dotnet publish --output ./tools/pasopa --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+      run: dotnet publish --output ./build --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+      
+    - name: branch-solution, prepare it for a PullRequest
+      uses: microsoft/powerplatform-actions/branch-solution@v0
+      with:
+        solution-folder: ./temp/pasopa/src/PASopa/build
+        solution-target-folder: tools
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        allow-empty-commit: true     
      # run: build ci
      # shell: cmd
     #- name: Test that it works

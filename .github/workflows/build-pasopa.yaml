@@ -22,12 +22,12 @@ jobs:
         repository: microsoft/PowerApps-Language-Tooling
         path: temp/pasopa
         
-    - name: branch-solution, prepare it for a PullRequest
-      uses: microsoft/powerplatform-actions/branch-solution@v0
+    - name: Setup .NET Core SDK 3.x
+      uses: actions/setup-dotnet@v1.7.2
       with:
-        solution-folder: temp/pasopa
-        solution-target-folder: tools/PASOpa
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        allow-empty-commit: true
-
+        dotnet-version: '3.x'
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet publish -r win10-x64 -p:PublishSingleFile=true --self-contained true temp/pasopa/src
     

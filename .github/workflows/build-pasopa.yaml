@@ -29,7 +29,8 @@ jobs:
     - name: Display dotnet version
       run: dotnet --version
     - name: Build
-      working-directory: ./temp/pasopa
-      run: build ci
-      shell: cmd
+      working-directory: ./temp/pasopa/src
+      run: dotnet publish -r win10-x64 -p:PublishSingleFile=true --self-contained true
+      #run: build ci
+      #shell: cmd
     

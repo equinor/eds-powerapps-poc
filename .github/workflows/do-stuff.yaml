@@ -26,6 +26,6 @@ jobs:
       shell: cmd
       run: setx path "%path%;D:\a\eds-powerapps-poc\eds-powerapps-poc\tools"
       
-    - name: echo path again
+    - name: run pasopa
       shell: cmd
-      run: echo %PATH%
+      run: PASopa

@@ -21,3 +21,11 @@ jobs:
     - name: echo path
       shell: cmd
       run: echo %PATH%
+      
+    - name: add to path
+      shell: cmd
+      run: setx path "%path%;D:\a\eds-powerapps-poc\eds-powerapps-poc\tools"
+      
+    - name: echo path again
+      shell: cmd
+      run: echo %PATH%

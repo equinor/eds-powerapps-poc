@@ -16,7 +16,7 @@ jobs:
         
     - name: echo home
       shell: cmd
-      run: echo %HOME%
+      run: cd
       
     - name: echo path
       shell: cmd

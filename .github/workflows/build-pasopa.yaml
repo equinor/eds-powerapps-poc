@@ -20,6 +20,7 @@ jobs:
       with:
         lfs: true
         repository: microsoft/PowerApps-Language-Tooling
+        ref: '0.2.1-preview'
         path: temp/pasopa
         
     - name: Setup .NET Core SDK 3.x
@@ -29,8 +30,9 @@ jobs:
     - name: Display dotnet version
       run: dotnet --version
     - name: Build
-      working-directory: ./temp/pasopa/src
-      run: dotnet publish -r win10-x64 -p:PublishSingleFile=true --self-contained true
-      #run: build ci
-      #shell: cmd
+      working-directory: ./temp/pasopa
+      run: build ci
+      shell: cmd
+    - name: Test that it works
+      run: ./bin/Debug/PASopa/PASopa.dll
     

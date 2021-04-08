@@ -1,0 +1,21 @@
+name: import-solution
+# Import solution from Github repo
+# TODO: Use PASOpa to pack the .msapp file
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import-from-repo:
+    runs-on: windows-latest
+    env:
+      RUNNER_DEBUG: 1
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+        respository: microsoft/PowerApps-Language-Tooling
+        path: temp/pasopa
+
+    

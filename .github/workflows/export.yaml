@@ -48,7 +48,7 @@ jobs:
       run: >-
         tools\pasopa -unpack 
         out\solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp 
-        {{ env.GITHUB_WORKSPACE }}\out\solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+        ${{ env.GITHUB_WORKSPACE }}\out\solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       
     - name: remove .msapp file
       shell: cmd

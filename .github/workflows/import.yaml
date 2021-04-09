@@ -29,17 +29,18 @@ jobs:
         app-id: 'dfab4afd-0e14-48ee-997e-04e8defbcf6f'
         tenant-id: '3aa4a235-b6e2-48d5-9195-7fcf05b459b0'
         
-    - name: rename src folder
-      run: mv solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri_src solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
-      shell: bash
-        
     - name: prepare packing
       shell: cmd
-      run: tools\pasopa -pack solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      run: >-
+        tools\pasopa -pack 
+        solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp
+        solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       
     - name: remove .msapp dir
       shell: bash
-      run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      run: >-
+        rm -rf 
+        solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       
     - name: pack-solution
       uses: 'microsoft/powerplatform-actions/pack-solution@v0'

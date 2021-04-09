@@ -37,7 +37,7 @@ jobs:
       shell: cmd
       run: tools\pasopa -pack solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri_src
       
-    #- name: remove .msapp dir
-    #  shell: bash
-    #  run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+    - name: remove .msapp dir
+      shell: bash
+      run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       

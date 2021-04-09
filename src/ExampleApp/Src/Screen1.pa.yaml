@@ -1,8 +1,0 @@
-Screen1 As screen:
-
-    Button2 As button:
-        Text: ="Click me!"
-        X: =70
-        Y: =105
-        ZIndex: =1
-

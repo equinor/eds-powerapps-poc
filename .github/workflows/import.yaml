@@ -37,12 +37,12 @@ jobs:
     #  shell: bash
     #  run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       
-    #- name: pack-solution
-    #  uses: 'microsoft/powerplatform-actions/pack-solution@v0'
-    #  with:
-    #    solution-file: 'out/packed/EDSTemplate.zip'
-    #    solution-folder: 'solutions/EDSTemplate'
-    #    solution-type: 'Unmanaged'
+    - name: pack-solution
+      uses: 'microsoft/powerplatform-actions/pack-solution@v0'
+      with:
+        solution-file: 'out/packed/EDSTemplate.zip'
+        solution-folder: 'solutions/EDSTemplate'
+        solution-type: 'Unmanaged'
     #    
     #- name: import-solution
     #  uses: 'microsoft/powerplatform-actions/import-solution@v0'

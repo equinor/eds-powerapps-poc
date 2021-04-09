@@ -1,0 +1,141 @@
+GraphicControls As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    OnHidden: =Reset(Menu_4)
+    Orientation: =If(GraphicControls.Width < GraphicControls.Height, Layout.Vertical, Layout.Horizontal)
+    Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= GraphicControls.Width)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    CompositeLineChart_Sample As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =3
+
+        LineChart1 As lineChart:
+            Font: =Font.'Open Sans'
+            Height: =264
+            Items: =LineChartSample
+            Width: =588
+            X: =740
+            Y: =193
+            ZIndex: =1
+
+        Title3 As label:
+            Align: =Align.Center
+            Height: =16
+            Text: ="Line Chart"
+            Width: =588
+            X: =740
+            Y: =173
+            ZIndex: =2
+
+        Legend1 As legend:
+            Height: =53
+            ItemColorSet: =LineChart1.ItemColorSet
+            Items: =LineChart1.SeriesLabels
+            Width: =470
+            X: =799
+            Y: =463
+            ZIndex: =3
+
+    Label_DataTable As label:
+        Text: ="Data Table"
+        X: =70
+        Y: =200
+        ZIndex: =4
+
+    Label_Instructions_1 As label:
+        BorderColor: =Button.FillDanger
+        BorderThickness: =2
+        FontWeight: =FontWeight.Bold
+        Height: =72
+        PaddingLeft: =20
+        Text: ="No need to copy/paste these controls - just for demo purposes."
+        Width: =579
+        X: =37
+        Y: =101
+        ZIndex: =5
+
+    DataTable_Sample As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =199
+        Items: =SampleCollection
+        Width: =612
+        X: =60
+        Y: =248
+        ZIndex: =6
+
+        Department_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Department"
+            FieldName: ="Department"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Department
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        EmployeedSince_Column1 As dataTableColumn.textualColumn:
+            AutoWidth: =true
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="EmployeedSince"
+            FieldName: ="EmployeedSince"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.EmployeedSince
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        Name_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Name"
+            FieldName: ="Name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Name
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+    Footer_2 As Footer:
+        Y: =699
+        ZIndex: =7
+
+    Header_3 As Header:
+        IsDebugMode: =IsDebugMode
+        ZIndex: =8
+
+    Button_Back_3 As button:
+        OnSelect: =Navigate(BasicDisplayControls);
+        Text: ="Back"
+        X: =Button.NavigationBackX
+        Y: =Button.NavigationBackY
+        ZIndex: =9
+
+    Button_Next_3 As button:
+        Color: =Colors.TextMain
+        Fill: =Colors.Primary1
+        OnSelect: =Navigate('Copy/Paste - Headings & Buttons');
+        Text: ="Next"
+        X: =Button.NavigationNextX
+        Y: =Button.NavigationNextY
+        ZIndex: =10
+
+    Menu_4 As Menu:
+        X: =1092
+        ZIndex: =11
+

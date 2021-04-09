@@ -1,0 +1,42 @@
+Footer As CanvasComponent:
+    Fill: =RGBA(247, 247, 247, 1)
+    Height: =69
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Footer_Label_Year As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        FocusedBorderColor: =Footer_Label_Year.BorderColor
+        Height: =69
+        HoverBorderColor: =Footer_Label_Year.BorderColor
+        HoverColor: =Footer_Label_Year.Color
+        HoverFill: =Footer_Label_Year.Fill
+        PressedBorderColor: =Footer_Label_Year.BorderColor
+        PressedColor: =Footer_Label_Year.Color
+        PressedFill: =Footer_Label_Year.Fill
+        Text: =Text(Now(),"[$-en-US]yyyy")
+        X: =1186
+        ZIndex: =6
+
+    Footer_Label_Title As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        FocusedBorderColor: =Footer_Label_Title.BorderColor
+        Height: =69
+        HoverBorderColor: =Footer_Label_Title.BorderColor
+        HoverColor: =Footer_Label_Title.Color
+        HoverFill: =Footer_Label_Title.Fill
+        PressedBorderColor: =Footer_Label_Title.BorderColor
+        PressedColor: =Footer_Label_Title.Color
+        PressedFill: =Footer_Label_Title.Fill
+        Text: ="Bulb Digital"
+        Width: =200
+        X: =30
+        ZIndex: =7
+

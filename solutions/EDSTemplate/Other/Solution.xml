@@ -1,25 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21031.152" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21032.154" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>EDSTemplate</UniqueName>
     <LocalizedNames>
       <LocalizedName description="EDS Template" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.4</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>DefaultPublisheredsdev</UniqueName>
+      <UniqueName>Cr022fc</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="Default Publisher for edsdev" languagecode="1033" />
+        <LocalizedName description="EDS Publisher" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions>
-        <Description description="Default publisher for this organization" languagecode="1033" />
-      </Descriptions>
+      <Descriptions />
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>new</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>eds</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>75752</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>

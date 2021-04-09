@@ -1,4 +1,4 @@
-name: add-tools-to-path
+name: do-stuff
 
 on:
   workflow_dispatch:

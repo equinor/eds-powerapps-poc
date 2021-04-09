@@ -1,0 +1,53 @@
+Debug As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    OnHidden: =Reset(Menu_5)
+    Orientation: =If(Debug.Width < Debug.Height, Layout.Vertical, Layout.Horizontal)
+    Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= Debug.Width)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Label_Instructions_3 As label:
+        BorderColor: =Button.FillDanger
+        BorderThickness: =2
+        FontWeight: =FontWeight.Bold
+        Height: =55
+        PaddingLeft: =20
+        Text: ="Use this page to configure any debug values you might want."
+        Width: =593
+        X: =44
+        Y: =101
+        ZIndex: =1
+
+    Footer_5 As Footer:
+        Y: =699
+        ZIndex: =2
+
+    Header_5 As Header:
+        IsDebugMode: =IsDebugMode
+        ZIndex: =3
+
+    DebugToggle As toggleSwitch:
+        AccessibleLabel: ="Debug Toggle"
+        Default: =IsDebugMode
+        OnSelect: =Set(IsDebugMode, Self.Value)
+        Tooltip: ="Debug Toggle"
+        X: =194
+        Y: =182
+        ZIndex: =4
+
+    Label1 As label:
+        Text: ="IsDebugMode"
+        X: =44
+        Y: =176
+        ZIndex: =5
+
+    Button_Back_4 As button:
+        OnSelect: =Navigate('Copy/Paste - Headings & Buttons')
+        Text: ="Back"
+        X: =Button.NavigationBackX
+        Y: =Button.NavigationBackY
+        ZIndex: =6
+
+    Menu_5 As Menu:
+        X: =1092
+        ZIndex: =7
+

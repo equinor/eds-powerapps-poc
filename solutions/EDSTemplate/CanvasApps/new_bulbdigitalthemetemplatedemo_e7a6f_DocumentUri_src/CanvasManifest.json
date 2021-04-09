@@ -1,0 +1,65 @@
+{
+  "FormatVersion": "0.20",
+  "Header": {
+    "DocVersion": "1.300",
+    "MinVersionToLoad": "1.300",
+    "MSAppStructureVersion": "2.0"
+  },
+  "Properties": {
+    "AppCreationSource": "AppFromScratch",
+    "AppDescription": "You should update the App \"OnStart\" settings to your company's branding design & use as a starting app for all future apps.",
+    "AppPreviewFlagsKey": [
+      "delayloadscreens",
+      "projectionmapping",
+      "usedisplaynamemetadata",
+      "usenonblockingonstartrule",
+      "useguiddatatypes",
+      "useexperimentalcdsconnector",
+      "useenforcesavedatalimits",
+      "componentauthoring",
+      "reliableconcurrent",
+      "dataTableV2Control",
+      "nativecdsexperimental",
+      "useexperimentalsqlconnector",
+      "enablecdsfileandlargeimage",
+      "enablesummerlandgeospatialfeatures",
+      "enablesummerlandmixedrealityfeatures"
+    ],
+    "Author": "",
+    "ContainsThirdPartyPcfControls": false,
+    "DefaultConnectedDataSourceMaxGetRowsCount": 500,
+    "DocumentAppType": "DesktopOrTablet",
+    "DocumentLayoutHeight": 768,
+    "DocumentLayoutLockOrientation": true,
+    "DocumentLayoutMaintainAspectRatio": true,
+    "DocumentLayoutOrientation": "landscape",
+    "DocumentLayoutScaleToFit": true,
+    "DocumentLayoutWidth": 1366,
+    "DocumentType": "App",
+    "EnableInstrumentation": false,
+    "ErrorCount": 0,
+    "FileID": "c7caf741-13ee-4141-8aae-3ba2e59cda1e",
+    "Id": "5d60991f-9779-4fcf-a827-ed4f795233c9",
+    "InstrumentationKey": "",
+    "Name": "Bulb Digital Theme Template Demo",
+    "OriginatingVersion": "1.281"
+  },
+  "PublishInfo": {
+    "AppName": "Bulb Digital Theme Template Demo",
+    "BackgroundColor": "rgba(12, 193, 169, 1)",
+    "IconColor": "RGBA(255,255,255,1)",
+    "IconName": "Edit",
+    "LogoFileName": "logo.jpg",
+    "PublishDataLocally": false,
+    "PublishResourcesLocally": false,
+    "PublishTarget": "player",
+    "UserLocale": "en-US"
+  },
+  "ScreenOrder": [
+    "InputControls",
+    "BasicDisplayControls",
+    "GraphicControls",
+    "Copy/Paste - Headings & Buttons",
+    "Debug"
+  ]
+}

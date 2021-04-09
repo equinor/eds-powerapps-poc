@@ -18,6 +18,10 @@ jobs:
       shell: cmd
       run: cd
       
+    - name: echo full path
+      shell: cmd
+      run: echo {{ env.GITHUB_WORKSPACE }}\out\solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      
     #- name: echo path
      # shell: cmd
      # run: echo %PATH%
@@ -33,11 +37,11 @@ jobs:
     #  shell: cmd
     #  run: tools\pasopa -unpack solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp
     
-    - name: prepare packing
-      shell: cmd
-      run: tools\pasopa -pack solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri_src
-      
-    - name: remove .msapp dir
-      shell: bash
-      run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+    # - name: prepare packing
+    #  shell: cmd
+    #  run: tools\pasopa -pack solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri_src
+    #  
+    #- name: remove .msapp dir
+    #  shell: bash
+    #  run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       

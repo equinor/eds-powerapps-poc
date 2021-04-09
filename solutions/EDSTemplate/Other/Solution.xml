@@ -79,7 +79,6 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="300" schemaName="new_bulbdigitalthemetemplatedemo_e7a6f" behavior="0" />
-      <RootComponent type="300" schemaName="new_solutionapp_6d85c" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

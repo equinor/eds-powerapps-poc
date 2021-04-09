@@ -35,7 +35,7 @@ jobs:
       
     - name: remove .msapp dir
       shell: bash
-      run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      run: rm -rf solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri      
       
     - name: pack-solution
       uses: 'microsoft/powerplatform-actions/pack-solution@v0'

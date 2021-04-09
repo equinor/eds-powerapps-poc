@@ -2,7 +2,7 @@ App As appinfo:
     OnStart: |
         =Set(
             IsDebugMode,
-            false
+            true
         );
         Set(
             Colors,

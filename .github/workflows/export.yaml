@@ -6,10 +6,10 @@ name: export-and-branch-solution
 on:
   workflow_dispatch:
     inputs:
-    target-environment:
-      description: 'Environment to export the solution from (edsdev, edsdevfre, edsdevvnys)'
-      required: true
-      default: 'edsdev'
+      target-environment:
+        description: 'Environment to import the solution to (edsdev, edsdevfre, edsdevvnys)'
+        required: true
+        default: 'edsdev'
 
 jobs:
   export-from-dev:

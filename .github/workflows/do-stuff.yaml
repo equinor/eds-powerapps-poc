@@ -20,7 +20,7 @@ jobs:
       
     - name: echo full path
       shell: cmd
-      run: echo ${{ GITHUB_WORKSPACE }}\out\solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      run: echo %GITHUB_WORKSPACE%\out\solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
       
     #- name: echo path
      # shell: cmd

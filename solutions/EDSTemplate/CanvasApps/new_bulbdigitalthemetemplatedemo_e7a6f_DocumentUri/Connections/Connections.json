@@ -1,13 +1,13 @@
 {
   "5d12b87e-225c-44a9-9a2b-e8fff7e3760d": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/2046c31059284491a5eac476c287f23b",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/41298591892b469a81ae77a79ad6cc04",
     "connectionParameters": {
       "sku": "Enterprise"
     },
     "connectionRef": {
       "apiTier": "Standard",
       "displayName": "Office 365 Users",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1430/1.0.1430.2296/office365users/icon.png",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1460/1.0.1460.2389/office365users/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_office365users",
       "parameterHints": {}
     },

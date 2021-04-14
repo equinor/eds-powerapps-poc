@@ -202,7 +202,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Back_4",
-    "ParentIndex": 5,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -583,7 +583,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "DebugToggle",
-    "ParentIndex": 4,
+    "ParentIndex": 5,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1072,7 +1072,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Instructions_3",
-    "ParentIndex": 2,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1382,7 +1382,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label1",
-    "ParentIndex": 3,
+    "ParentIndex": 4,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1631,7 +1631,7 @@
     },
     "MetaDataIDKey": "",
     "Name": "Menu_5",
-    "ParentIndex": 1,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

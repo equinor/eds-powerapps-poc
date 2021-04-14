@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>new_bulbdigitalthemetemplatedemo_e7a6f</Name>
-  <AppVersion>2021-03-30T09:54:23Z</AppVersion>
+  <AppVersion>2021-04-14T11:38:17Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.21013.19.0</CreatedByClientVersion>
   <MinClientVersion>3.21013.19.0</MinClientVersion>
@@ -14,17 +14,13 @@
   <CommitMessage></CommitMessage>
   <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"5d12b87e-225c-44a9-9a2b-e8fff7e3760d":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1430/1.0.1430.2296/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfile"]}}</ConnectionReferences>
+  <ConnectionReferences>{"5d12b87e-225c-44a9-9a2b-e8fff7e3760d":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1460/1.0.1460.2389/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfile"]}}</ConnectionReferences>
   <DatabaseReferences>{}</DatabaseReferences>
-  <AppComponents>[]</AppComponents>
-  <AppComponentDependencies>[]</AppComponentDependencies>
-  <CanConsumeAppPass>1</CanConsumeAppPass>
   <CanvasAppType>0</CanvasAppType>
   <BypassConsent>0</BypassConsent>
-  <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <CdsDependencies xsi:nil="true"></CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp</DocumentUri>

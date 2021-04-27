@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="eds_tokens">
+  <defaultvalue>{ bar: "baz" }</defaultvalue>
+  <description default="EDS Design tokens">
+    <label description="EDS Design tokens" languagecode="1033" />
+  </description>
+  <displayname default="EDS Tokens">
+    <label description="EDS Tokens" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.4</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000003</type>
+</environmentvariabledefinition>

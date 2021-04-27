@@ -5,7 +5,6 @@
       "MinScreenWidth",
       "ConfirmExit",
       "SizeBreakpoints",
-      "BackEnabled",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -30,11 +29,6 @@
       {
         "Category": "Data",
         "PropertyName": "ConfirmExit",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "BackEnabled",
         "RuleProviderType": "Unknown"
       },
       {

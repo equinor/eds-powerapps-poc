@@ -1,23 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>new_bulbdigitalthemetemplatedemo_e7a6f</Name>
-  <AppVersion>2021-04-14T11:46:43Z</AppVersion>
+  <AppVersion>2021-03-30T09:54:23Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.21035.34.0</CreatedByClientVersion>
-  <MinClientVersion>3.21035.34.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"1c20438a-71ab-492a-9a47-82eaca8b52c1","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21035.34","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.21013.19.0</CreatedByClientVersion>
+  <MinClientVersion>3.21013.19.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"20210204T153054Z-3.21013.19.0","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21013.19","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(12, 193, 169, 1)</BackgroundColor>
   <DisplayName>Bulb Digital Theme Template Demo</DisplayName>
   <Description>You should update the App "OnStart" settings to your company's branding design &amp; use as a starting app for all future apps.</Description>
-  <CommitMessage>Changed primary color</CommitMessage>
+  <CommitMessage></CommitMessage>
   <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"5d12b87e-225c-44a9-9a2b-e8fff7e3760d":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365-brukere","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1460/1.0.1460.2389/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfile"]}}</ConnectionReferences>
+  <ConnectionReferences>{"5d12b87e-225c-44a9-9a2b-e8fff7e3760d":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1430/1.0.1430.2296/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfile"]}}</ConnectionReferences>
   <DatabaseReferences>{}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
   <CanvasAppType>0</CanvasAppType>
   <BypassConsent>0</BypassConsent>
   <AdminControlBypassConsent>0</AdminControlBypassConsent>

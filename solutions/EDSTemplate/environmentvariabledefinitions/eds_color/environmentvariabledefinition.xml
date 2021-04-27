@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="eds_color">
+  <defaultvalue>{ foo: "bar" }</defaultvalue>
+  <description default="The EDS Colour palette">
+    <label description="The EDS Colour palette" languagecode="1033" />
+  </description>
+  <displayname default="EDS Colours">
+    <label description="EDS Colours" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.4</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000003</type>
+</environmentvariabledefinition>

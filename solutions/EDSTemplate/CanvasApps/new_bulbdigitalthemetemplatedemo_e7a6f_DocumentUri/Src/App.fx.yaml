@@ -1,14 +1,18 @@
 App As appinfo:
-    BackEnabled: =false
     OnStart: |
         =Set(
             IsDebugMode,
-            true
+            false
         );
         Set(
             Colors,
             {
-                Primary1: ColorValue("#007079"),
+                Primary1: RGBA(
+                    246,
+                    208,
+                    50,
+                    1
+                ),
                 // default (56, 96, 178, 1)
         Primary2: RGBA(
                     40,

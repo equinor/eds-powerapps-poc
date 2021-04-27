@@ -5,40 +5,12 @@
       "columnKind": "utf16CodeUnits",
       "invocations": [
         {
-          "executionSuccessful": true
+          "endTimeUtc": "2021-02-04T15:30:53.725Z",
+          "executionSuccessful": true,
+          "startTimeUtc": "2021-02-04T15:30:53.716Z"
         }
       ],
       "results": [
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Header.Header_DebugInfo.HtmlText"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Header.Header_DebugInfo.HtmlText",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "HtmlText",
-                "module": "Header",
-                "type": "Header.Header_DebugInfo"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-HtmlShouldNotBeInteractive",
-          "ruleIndex": 0
-        },
         {
           "locations": [
             {
@@ -67,7 +39,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -97,7 +69,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -127,7 +99,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -157,6 +129,36 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Header.Header_DebugInfo.HtmlText"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Header.Header_DebugInfo.HtmlText",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "HtmlText",
+                "module": "Header",
+                "type": "Header.Header_DebugInfo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-HtmlShouldNotBeInteractive",
           "ruleIndex": 2
         },
         {
@@ -187,7 +189,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -246,7 +248,7 @@
             "level": "Low"
           },
           "ruleId": "acc-HtmlShouldNotBeInteractive",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -276,7 +278,7 @@
             "level": "Low"
           },
           "ruleId": "acc-HtmlShouldNotBeInteractive",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -435,23 +437,6 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "acc-HtmlShouldNotBeInteractive",
-              "messageStrings": {
-                "issue": {
-                  "text": "If this HTML contains interactive elements, consider using another method, or remove the HTML from this element."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Use another method instead of HTML, or remove the HTML from this element."
-                ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "Your app won't work correctly and will not be accessible if you place interactive HTML elements."
-              }
-            },
-            {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
                 "issue": {
@@ -486,6 +471,23 @@
               }
             },
             {
+              "id": "acc-HtmlShouldNotBeInteractive",
+              "messageStrings": {
+                "issue": {
+                  "text": "If this HTML contains interactive elements, consider using another method, or remove the HTML from this element."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Use another method instead of HTML, or remove the HTML from this element."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "Your app won't work correctly and will not be accessible if you place interactive HTML elements."
+              }
+            },
+            {
               "id": "acc-AlternativeInputNeeded",
               "messageStrings": {
                 "issue": {
@@ -506,21 +508,21 @@
               "id": "app-InefficientDelayLoading",
               "messageStrings": {
                 "issue": {
-                  "text": "Ineffektiv forsinkelse ved lasting"
+                  "text": "Inefficient delay loading"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Bruk variabler, samlinger og navigasjonskontekst for å dele tilstanden på tvers av skjermer."
+                  "Use variables, collections, and navigation context to share state across screens instead."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Kontroller som refererer til kontroller på andre skjermer kan gjøre app og navigasjon tregere. Hvis du gjør dette, tvinger du appen til å laste inn de andre skjermene umiddelbart, i stedet for å vente til brukeren går til den aktuelle skjermen."
+                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
               }
             }
           ],
-          "version": "1.308"
+          "version": "1.300"
         }
       }
     }

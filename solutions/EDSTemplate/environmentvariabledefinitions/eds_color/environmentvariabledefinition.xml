@@ -1,5 +1,5 @@
 <environmentvariabledefinition schemaname="eds_color">
-  <defaultvalue>{ foo: "bar" }</defaultvalue>
+  <defaultvalue>{ moss_green: "#007079" }</defaultvalue>
   <description default="The EDS Colour palette">
     <label description="The EDS Colour palette" languagecode="1033" />
   </description>

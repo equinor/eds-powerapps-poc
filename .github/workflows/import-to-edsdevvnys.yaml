@@ -1,4 +1,4 @@
-name: import-solution
+name: import-solution-into-edsdevvnys
 # Deploy to environment on push. Used to make changes in VS Code and push the changes directly to the environment.
 
 on:

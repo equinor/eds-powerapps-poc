@@ -3,7 +3,7 @@ name: import-solution-into-edsdevvnys
 
 on:
   workflow_dispatch:
-    push:
+  push:
     branches:
       - EDSDevVnys
 

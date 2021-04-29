@@ -14,6 +14,6 @@ So then all we need is a mac version of [Power Apps CLI](https://docs.microsoft.
 
 ## License
 
-We use an MIT license in the EDS. The Bulb Digital template does not have a license, but we’ve clarified with [Michael Wright](https://www.linkedin.com/in/michaelvwright) in Bulb Digital that we can modifiy their template under an MIT license. He has [a YouTube video](https://www.youtube.com/watch?v=aRzVPkHkUPg&lc=Ugzomw4tOtIHcHxvroJ4AaABAg.9MfEPRV2VBG9MgzT0ISbtv) where he explains how the template is made. 
+We use an MIT license in the EDS. The Bulb Digital template does not have a license, but we’ve clarified with [Michael Wright](https://www.linkedin.com/in/michaelvwright) in Bulb Digital that we can modifiy their template under an MIT license. He has [a YouTube video](https://www.youtube.com/watch?v=aRzVPkHkUPg&lc=Ugzomw4tOtIHcHxvroJ4AaABAg.9MfEPRV2VBG9MgzT0ISbtv) where he explains how the template is made and [an earlier video](https://www.youtube.com/watch?v=gnE1PuwUKqs) on how to use it.  
 
 ![image](https://user-images.githubusercontent.com/2081882/116526023-71782180-a8d9-11eb-9f39-51b5f9546034.png)

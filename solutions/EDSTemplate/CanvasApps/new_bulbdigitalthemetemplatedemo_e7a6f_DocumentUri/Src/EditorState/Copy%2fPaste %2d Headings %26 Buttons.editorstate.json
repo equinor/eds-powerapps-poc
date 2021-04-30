@@ -1,5 +1,6 @@
 {
   "Button_Back": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -202,7 +203,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Back",
-    "ParentIndex": 1,
+    "ParentIndex": 20,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -390,6 +391,7 @@
     "Type": "ControlInfo"
   },
   "Button_Danger": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -577,7 +579,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Danger",
-    "ParentIndex": 12,
+    "ParentIndex": 10,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -760,6 +762,7 @@
     "Type": "ControlInfo"
   },
   "Button_Link": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -954,7 +957,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Link",
-    "ParentIndex": 18,
+    "ParentIndex": 16,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1137,6 +1140,7 @@
     "Type": "ControlInfo"
   },
   "Button_Next": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -1339,7 +1343,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Next",
-    "ParentIndex": 2,
+    "ParentIndex": 21,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1527,6 +1531,7 @@
     "Type": "ControlInfo"
   },
   "Button_Outline": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -1721,7 +1726,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Outline",
-    "ParentIndex": 15,
+    "ParentIndex": 13,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1904,6 +1909,7 @@
     "Type": "ControlInfo"
   },
   "Button_Primary": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -2091,7 +2097,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Primary",
-    "ParentIndex": 5,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2274,6 +2280,7 @@
     "Type": "ControlInfo"
   },
   "Copy/Paste - Headings & Buttons": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       "ImagePosition",
@@ -2360,6 +2367,7 @@
     "Type": "ControlInfo"
   },
   "Footer_1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -2412,6 +2420,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
@@ -2455,6 +2464,7 @@
     "Type": "ControlInfo"
   },
   "Header_1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       {
@@ -2501,6 +2511,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
@@ -2549,6 +2560,7 @@
     "Type": "ControlInfo"
   },
   "HtmlText2": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "DisplayMode",
       {
@@ -2634,7 +2646,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "HtmlText2",
-    "ParentIndex": 13,
+    "ParentIndex": 11,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2727,6 +2739,7 @@
     "Type": "ControlInfo"
   },
   "Icon5": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Icon",
       "Color",
@@ -2825,434 +2838,6 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Icon5",
-    "ParentIndex": 10,
-    "PersistMetaDataIDKey": false,
-    "Properties": [
-      {
-        "Category": "Design",
-        "PropertyName": "Icon",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Color",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Fill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisplayMode",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "X",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Y",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Width",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Height",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderStyle",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "FocusedBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "ZIndex",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderThickness",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "FocusedBorderThickness",
-        "RuleProviderType": "Unknown"
-      }
-    ],
-    "StyleName": "defaultIconStyle",
-    "Type": "ControlInfo"
-  },
-  "Icon6": {
-    "ControlPropertyState": [
-      "Icon",
-      "Color",
-      "DisabledColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon6.Color, -20%)",
-        "InvariantPropertyName": "PressedColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon6.Color, 20%)",
-        "InvariantPropertyName": "HoverColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      "Fill",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon6.Fill",
-        "InvariantPropertyName": "DisabledFill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon6.Fill",
-        "InvariantPropertyName": "PressedFill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon6.Fill",
-        "InvariantPropertyName": "HoverFill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      "DisplayMode",
-      "X",
-      "Y",
-      "Width",
-      "Height",
-      "BorderStyle",
-      "BorderColor",
-      "DisabledBorderColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon6.BorderColor, -20%)",
-        "InvariantPropertyName": "PressedBorderColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon6.BorderColor, 20%)",
-        "InvariantPropertyName": "HoverBorderColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon6.BorderColor",
-        "InvariantPropertyName": "FocusedBorderColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      "ZIndex",
-      "BorderThickness",
-      "FocusedBorderThickness"
-    ],
-    "HasDynamicProperties": false,
-    "IsAutoGenerated": false,
-    "IsComponentDefinition": false,
-    "IsDataControl": false,
-    "IsFromScreenLayout": false,
-    "IsGroupControl": false,
-    "IsLocked": false,
-    "LayoutName": "",
-    "MetaDataIDKey": "",
-    "Name": "Icon6",
-    "ParentIndex": 19,
-    "PersistMetaDataIDKey": false,
-    "Properties": [
-      {
-        "Category": "Design",
-        "PropertyName": "Icon",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Color",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Fill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisplayMode",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "X",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Y",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Width",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Height",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderStyle",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "DisabledBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "PressedBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "HoverBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "FocusedBorderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "ZIndex",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderThickness",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "FocusedBorderThickness",
-        "RuleProviderType": "Unknown"
-      }
-    ],
-    "StyleName": "defaultIconStyle",
-    "Type": "ControlInfo"
-  },
-  "Icon7": {
-    "ControlPropertyState": [
-      "Icon",
-      "Color",
-      "DisabledColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon7.Color, -20%)",
-        "InvariantPropertyName": "PressedColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon7.Color, 20%)",
-        "InvariantPropertyName": "HoverColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      "Fill",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon7.Fill",
-        "InvariantPropertyName": "DisabledFill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon7.Fill",
-        "InvariantPropertyName": "PressedFill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon7.Fill",
-        "InvariantPropertyName": "HoverFill",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      "DisplayMode",
-      "X",
-      "Y",
-      "Width",
-      "Height",
-      "BorderStyle",
-      "BorderColor",
-      "DisabledBorderColor",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon7.BorderColor, -20%)",
-        "InvariantPropertyName": "PressedBorderColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "ColorFade(Icon7.BorderColor, 20%)",
-        "InvariantPropertyName": "HoverBorderColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Icon7.BorderColor",
-        "InvariantPropertyName": "FocusedBorderColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
-      "ZIndex",
-      "BorderThickness",
-      "FocusedBorderThickness"
-    ],
-    "HasDynamicProperties": false,
-    "IsAutoGenerated": false,
-    "IsComponentDefinition": false,
-    "IsDataControl": false,
-    "IsFromScreenLayout": false,
-    "IsGroupControl": false,
-    "IsLocked": false,
-    "LayoutName": "",
-    "MetaDataIDKey": "",
-    "Name": "Icon7",
     "ParentIndex": 8,
     "PersistMetaDataIDKey": false,
     "Properties": [
@@ -3375,7 +2960,438 @@
     "StyleName": "defaultIconStyle",
     "Type": "ControlInfo"
   },
+  "Icon6": {
+    "AllowAccessToGlobals": true,
+    "ControlPropertyState": [
+      "Icon",
+      "Color",
+      "DisabledColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon6.Color, -20%)",
+        "InvariantPropertyName": "PressedColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon6.Color, 20%)",
+        "InvariantPropertyName": "HoverColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon6.Fill",
+        "InvariantPropertyName": "DisabledFill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon6.Fill",
+        "InvariantPropertyName": "PressedFill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon6.Fill",
+        "InvariantPropertyName": "HoverFill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "DisplayMode",
+      "X",
+      "Y",
+      "Width",
+      "Height",
+      "BorderStyle",
+      "BorderColor",
+      "DisabledBorderColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon6.BorderColor, -20%)",
+        "InvariantPropertyName": "PressedBorderColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon6.BorderColor, 20%)",
+        "InvariantPropertyName": "HoverBorderColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon6.BorderColor",
+        "InvariantPropertyName": "FocusedBorderColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "ZIndex",
+      "BorderThickness",
+      "FocusedBorderThickness"
+    ],
+    "HasDynamicProperties": false,
+    "IsAutoGenerated": false,
+    "IsComponentDefinition": false,
+    "IsDataControl": false,
+    "IsFromScreenLayout": false,
+    "IsGroupControl": false,
+    "IsLocked": false,
+    "LayoutName": "",
+    "MetaDataIDKey": "",
+    "Name": "Icon6",
+    "ParentIndex": 17,
+    "PersistMetaDataIDKey": false,
+    "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "Icon",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Color",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisabledColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisabledFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisplayMode",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "X",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Y",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderStyle",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisabledBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "FocusedBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "FocusedBorderThickness",
+        "RuleProviderType": "Unknown"
+      }
+    ],
+    "StyleName": "defaultIconStyle",
+    "Type": "ControlInfo"
+  },
+  "Icon7": {
+    "AllowAccessToGlobals": true,
+    "ControlPropertyState": [
+      "Icon",
+      "Color",
+      "DisabledColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon7.Color, -20%)",
+        "InvariantPropertyName": "PressedColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon7.Color, 20%)",
+        "InvariantPropertyName": "HoverColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon7.Fill",
+        "InvariantPropertyName": "DisabledFill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon7.Fill",
+        "InvariantPropertyName": "PressedFill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon7.Fill",
+        "InvariantPropertyName": "HoverFill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "DisplayMode",
+      "X",
+      "Y",
+      "Width",
+      "Height",
+      "BorderStyle",
+      "BorderColor",
+      "DisabledBorderColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon7.BorderColor, -20%)",
+        "InvariantPropertyName": "PressedBorderColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ColorFade(Icon7.BorderColor, 20%)",
+        "InvariantPropertyName": "HoverBorderColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon7.BorderColor",
+        "InvariantPropertyName": "FocusedBorderColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "ZIndex",
+      "BorderThickness",
+      "FocusedBorderThickness"
+    ],
+    "HasDynamicProperties": false,
+    "IsAutoGenerated": false,
+    "IsComponentDefinition": false,
+    "IsDataControl": false,
+    "IsFromScreenLayout": false,
+    "IsGroupControl": false,
+    "IsLocked": false,
+    "LayoutName": "",
+    "MetaDataIDKey": "",
+    "Name": "Icon7",
+    "ParentIndex": 6,
+    "PersistMetaDataIDKey": false,
+    "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "Icon",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Color",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisabledColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisabledFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisplayMode",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "X",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Y",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderStyle",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisabledBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PressedBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "HoverBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "FocusedBorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "FocusedBorderThickness",
+        "RuleProviderType": "Unknown"
+      }
+    ],
+    "StyleName": "defaultIconStyle",
+    "Type": "ControlInfo"
+  },
   "Icon8": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Icon",
       "Color",
@@ -3467,7 +3483,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Icon8",
-    "ParentIndex": 9,
+    "ParentIndex": 7,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -3590,6 +3606,7 @@
     "Type": "ControlInfo"
   },
   "Icon8_1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Icon",
       "Color",
@@ -3681,7 +3698,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Icon8_1",
-    "ParentIndex": 21,
+    "ParentIndex": 19,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -3804,6 +3821,7 @@
     "Type": "ControlInfo"
   },
   "Label_Heading1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "X",
       "Y",
@@ -3854,6 +3872,7 @@
     "Type": "ControlInfo"
   },
   "Label_Heading1_Line": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -3958,7 +3977,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Heading1_Line",
-    "ParentIndex": 7,
+    "ParentIndex": 5,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -4041,6 +4060,7 @@
     "Type": "ControlInfo"
   },
   "Label_Heading1_Text": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -4197,7 +4217,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Heading1_Text",
-    "ParentIndex": 4,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -4400,6 +4420,7 @@
     "Type": "ControlInfo"
   },
   "Label_Heading2": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -4556,7 +4577,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Heading2",
-    "ParentIndex": 11,
+    "ParentIndex": 9,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -4759,6 +4780,7 @@
     "Type": "ControlInfo"
   },
   "Label_Heading3": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -4922,7 +4944,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Heading3",
-    "ParentIndex": 14,
+    "ParentIndex": 12,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -5125,6 +5147,7 @@
     "Type": "ControlInfo"
   },
   "Label_Heading4": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -5274,7 +5297,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Heading4",
-    "ParentIndex": 17,
+    "ParentIndex": 15,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -5477,6 +5500,7 @@
     "Type": "ControlInfo"
   },
   "Label7": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -5584,7 +5608,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label7",
-    "ParentIndex": 6,
+    "ParentIndex": 4,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -5787,6 +5811,7 @@
     "Type": "ControlInfo"
   },
   "Label8": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -5901,7 +5926,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label8",
-    "ParentIndex": 16,
+    "ParentIndex": 14,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -6104,6 +6129,7 @@
     "Type": "ControlInfo"
   },
   "Label8_1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -6211,7 +6237,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label8_1",
-    "ParentIndex": 20,
+    "ParentIndex": 18,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -6414,6 +6440,7 @@
     "Type": "ControlInfo"
   },
   "Menu_1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       {
@@ -6462,12 +6489,13 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
     "MetaDataIDKey": "",
     "Name": "Menu_1",
-    "ParentIndex": 3,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

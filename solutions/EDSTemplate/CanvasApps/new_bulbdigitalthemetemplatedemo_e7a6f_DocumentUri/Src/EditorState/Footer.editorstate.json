@@ -1,5 +1,6 @@
 {
   "Footer": {
+    "AllowAccessToGlobals": false,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -90,6 +91,7 @@
     "Type": "ControlInfo"
   },
   "Footer_Label_Title": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -386,6 +388,7 @@
     "Type": "ControlInfo"
   },
   "Footer_Label_Year": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",

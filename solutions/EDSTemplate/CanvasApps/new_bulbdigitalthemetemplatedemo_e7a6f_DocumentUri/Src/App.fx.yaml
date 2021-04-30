@@ -8,7 +8,7 @@ App As appinfo:
         Set(
             Colors,
             {
-                Primary1: ColorValue("#007079"),
+                Primary1: ColorValue("#007079"), // MossGreen
                 // default (56, 96, 178, 1)
         Primary2: RGBA(
                     40,
@@ -64,20 +64,36 @@ App As appinfo:
                     255,
                     255,
                     1
-                )// d (255, 255, 255, 1)
+                ),// d (255, 255, 255, 1)
+                // Newly added colors (Frida) - Might change later after Victor set up a theme
+                Disabled: ColorValue("#BEBEBE"),
+                InteractiveHighlight: ColorValue("#e6faec"),
+                UIMedium: ColorValue("#dcdcdc"),
+                Static: ColorValue("#6f6f6f"),
+                Light: ColorValue("#f7f7f7"),
+                DisabledText: ColorValue("#bebebe")
             }
+        
         );
         Concurrent(
             Set(
+                Label,
+                {
+                    TextColor: Colors.Static,
+                    Disabled: Colors.DisabledText
+                }
+            ),
+            Set(
+                // Confirmed (Frida)
                 Input,
                 {
-                    BorderColor: Colors.Primary2,
-                    // d Colors.Primary2
-        BorderThickness: 1,
-                    // d 2
-        FocusedBorderThickness: 2,
-                    // d 4
-        Color: Colors.TextMain// d Colors.Black
+                    BorderColor: Colors.Static,
+                    FocusBorder: Colors.Primary1,
+                    BorderThickness: 1,
+                    FocusedBorderThickness: 2,
+                    Color: Colors.TextMain,// d Colors.Black
+                    Background: Colors.Light,
+                    HoverSelect: Colors.Static // WIP
                 }
             ),
             Set(
@@ -85,46 +101,44 @@ App As appinfo:
                 {
                     BorderDarkness: -5,
                     // colorfade percentage of fill color (d -15)
-        Radius: 10,
+                    Radius: 10,
                     // d 10
-        DisabledPercent: 50,
+                    DisabledPercent: 50,
                     // colorfade percentage of disabled border, color & fill (all buttons)
-        HoverPercent: -15,
+                    HoverPercent: -15,
                     // colorfade percentage of hover border & fill (all buttons but link)
-        HoverColorPercent: -25,
+                    HoverColorPercent: -25,
                     // colorfade percentage of hover color (only link & outline buttons)
-        PressedPercent: -20,
+                    PressedPercent: -20,
                     // colorfade percentage of pressed border & fill (all buttons but link & outline)
-        Color: Colors.TextMain,
+                    Color: Colors.TextMain,
                     // for default buttons (d Colors.White)
-        Fill: Colors.Primary3,
+                    Fill: Colors.Primary3,
                     // for default buttons (d Colors.Primary1)
-        FillDanger: RGBA(
+                    FillDanger: RGBA(
                         184,
                         0,
                         0,
                         1
                     ),
                     // for danger buttons
-        Width: 160,
+                    Width: 160,
                     // d 160
-        NavigationBackX: 1000,
+                    NavigationBackX: 1000,
                     NavigationBackY: 625,
                     NavigationNextX: 1180,
                     NavigationNextY: 625
                 }
             ),
             Set(
+                 // Confirmed (Frida)
                 CheckboxRadio,
                 {
-                    BorderColor: Colors.Primary2,
-                    // d Input.BorderColor
-        Fill: RGBA(
-                        0,
-                        0,
-                        0,
-                        0
-                    )// d (0, 0, 0, 0)
+                    BorderColor: Colors.Primary1,
+                    Background: Colors.White,
+                    FocusedBorderThickness: 1,
+                    Fill: Colors.Primary1,
+                    Disabled: Colors.Disabled
                 }
             ),
             Set(
@@ -132,7 +146,7 @@ App As appinfo:
                 {
                     HeadingBold: true,
                     // d false 
-        HeadingColorsInverted: true// d false
+                    HeadingColorsInverted: true// d false
                 }
             ),
             Set(
@@ -154,14 +168,15 @@ App As appinfo:
         }
             ),
             Set(
+                // WIP (Frida)
                 Toggle,
                 {
-                    Fill: RGBA(
-                        128,
-                        130,
-                        133,
-                        1
-                    )// d (128, 130, 133, 1)
+                    // d (128, 130, 133, 1)
+                    BorderColor: Colors.Primary1,
+                    TrueFill: Colors.Primary1,
+                    FalseFill: Colors.Static,
+                    Handle: Colors.White,
+                    Disabled: Colors.Disabled
                 }
             )
         );

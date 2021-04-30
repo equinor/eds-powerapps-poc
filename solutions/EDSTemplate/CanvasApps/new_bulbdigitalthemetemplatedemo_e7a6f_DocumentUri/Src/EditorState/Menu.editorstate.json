@@ -1,5 +1,6 @@
 {
   "GalleryMenu": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -246,6 +247,7 @@
     "Type": "ControlInfo"
   },
   "galleryTemplate1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "TemplateFill"
     ],
@@ -272,6 +274,7 @@
     "Type": "ControlInfo"
   },
   "Menu": {
+    "AllowAccessToGlobals": false,
     "ControlPropertyState": [
       "Fill",
       {
@@ -373,6 +376,7 @@
     "Type": "ControlInfo"
   },
   "MenuButton": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -797,6 +801,7 @@
     "Type": "ControlInfo"
   },
   "MenuIcon": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Icon",
       {
@@ -1010,6 +1015,7 @@
     "Type": "ControlInfo"
   },
   "MenuLine": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -1175,6 +1181,7 @@
     "Type": "ControlInfo"
   },
   "MenuTopFill": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",

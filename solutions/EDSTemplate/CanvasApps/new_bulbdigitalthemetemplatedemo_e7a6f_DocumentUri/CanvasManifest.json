@@ -1,8 +1,8 @@
 {
   "FormatVersion": "0.20",
   "Header": {
-    "DocVersion": "1.308",
-    "MinVersionToLoad": "1.308",
+    "DocVersion": "1.309",
+    "MinVersionToLoad": "1.309",
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
@@ -65,7 +65,7 @@
     "DocumentLayoutWidth": 1366,
     "DocumentType": "App",
     "EnableInstrumentation": false,
-    "ErrorCount": 0,
+    "ErrorCount": 1,
     "FileID": "c7caf741-13ee-4141-8aae-3ba2e59cda1e",
     "Id": "5d60991f-9779-4fcf-a827-ed4f795233c9",
     "InstrumentationKey": "",
@@ -81,13 +81,14 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "nb-NO"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "InputControls",
     "BasicDisplayControls",
     "GraphicControls",
     "Copy/Paste - Headings & Buttons",
-    "Debug"
+    "Debug",
+    "Screen1"
   ]
 }

@@ -1,5 +1,6 @@
 {
   "Button_Back_3": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -202,7 +203,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Back_3",
-    "ParentIndex": 1,
+    "ParentIndex": 8,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -390,6 +391,7 @@
     "Type": "ControlInfo"
   },
   "Button_Next_3": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -592,7 +594,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Next_3",
-    "ParentIndex": 2,
+    "ParentIndex": 9,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -780,6 +782,7 @@
     "Type": "ControlInfo"
   },
   "CompositeLineChart_Sample": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "X",
       "Y",
@@ -830,6 +833,7 @@
     "Type": "ControlInfo"
   },
   "DataTable_Sample": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       "Color",
@@ -880,7 +884,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "DataTable_Sample",
-    "ParentIndex": 8,
+    "ParentIndex": 6,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1043,6 +1047,7 @@
     "Type": "ControlInfo"
   },
   "Department_Column1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "FieldName",
       "Order",
@@ -1135,6 +1140,7 @@
     "Type": "ControlInfo"
   },
   "EmployeedSince_Column1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "FieldName",
       "Order",
@@ -1233,6 +1239,7 @@
     "Type": "ControlInfo"
   },
   "Footer_2": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -1285,6 +1292,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
@@ -1328,6 +1336,7 @@
     "Type": "ControlInfo"
   },
   "GraphicControls": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       "ImagePosition",
@@ -1408,6 +1417,7 @@
     "Type": "ControlInfo"
   },
   "Header_3": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       {
@@ -1454,6 +1464,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
@@ -1502,6 +1513,7 @@
     "Type": "ControlInfo"
   },
   "Label_DataTable": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -1609,7 +1621,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_DataTable",
-    "ParentIndex": 7,
+    "ParentIndex": 5,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1812,6 +1824,7 @@
     "Type": "ControlInfo"
   },
   "Label_Instructions_1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -1954,7 +1967,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Instructions_1",
-    "ParentIndex": 4,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2157,6 +2170,7 @@
     "Type": "ControlInfo"
   },
   "Legend1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -2211,7 +2225,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Legend1",
-    "ParentIndex": 9,
+    "ParentIndex": 7,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2325,6 +2339,7 @@
     "Type": "ControlInfo"
   },
   "LineChart1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Items",
       "ItemColorSet",
@@ -2369,7 +2384,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "%LineChart.ID%",
     "Name": "LineChart1",
-    "ParentIndex": 6,
+    "ParentIndex": 4,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2468,6 +2483,7 @@
     "Type": "ControlInfo"
   },
   "Menu_4": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       {
@@ -2509,12 +2525,13 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
     "MetaDataIDKey": "",
     "Name": "Menu_4",
-    "ParentIndex": 3,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2567,6 +2584,7 @@
     "Type": "ControlInfo"
   },
   "Name_Column1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "FieldName",
       "Order",
@@ -2659,6 +2677,7 @@
     "Type": "ControlInfo"
   },
   "Title3": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -2756,7 +2775,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Title3",
-    "ParentIndex": 5,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

@@ -1,125 +1,10 @@
 InputControls As screen:
+    Fill: =
     Height: =Max(App.Height, App.DesignHeight)
     OnHidden: =Reset(Menu_2)
     Orientation: =If(InputControls.Width < InputControls.Height, Layout.Vertical, Layout.Horizontal)
     Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= InputControls.Width)
     Width: =Max(App.Width, App.DesignWidth)
-
-    RichTextEditor_Sample As richTextEditor:
-        AccessibleLabel: ="RichTextEditor_Sample"
-        Default: ="Enter some <strong>rich text</strong> here."
-        Width: =402
-        X: =40
-        Y: =172
-        ZIndex: =1
-
-    PenInput_Sample As inkControl:
-        AccessibleLabel: ="PenInput_Sample"
-        Width: =402
-        X: =40
-        Y: =345
-        ZIndex: =2
-
-    ComboBox_Sample As combobox:
-        AccessibleLabel: ="ComboBox_Sample"
-        Items: =ComboBoxSample
-        MoreItemsButtonColor: =ComboBox_Sample.ChevronBackground
-        SearchItems: =Search(ComboBoxSample,ComboBox_Sample.SearchText,"Value1")
-        X: =501
-        Y: =282
-        ZIndex: =3
-
-    DatePicker_Sample As datepicker:
-        AccessibleLabel: ="DatePicker_Sample"
-        HoverBorderColor: =DatePicker_Sample.BorderColor
-        HoverFill: =DatePicker_Sample.Fill
-        InputTextPlaceholder: =Text(Date(2001,12,31), Self.Format, Self.Language)
-        PressedBorderColor: =DatePicker_Sample.BorderColor
-        PressedFill: =DatePicker_Sample.Fill
-        X: =501
-        Y: =380
-        ZIndex: =4
-
-    ListBox_Sample As listbox:
-        AccessibleLabel: ="ListBox_Sample"
-        Items: =ListboxSample
-        X: =501
-        Y: =471
-        ZIndex: =5
-
-    Checkbox_Sample As checkbox:
-        Text: ="Option"
-        X: =935
-        Y: =133
-        ZIndex: =6
-
-    Radio_Sample As radio:
-        AccessibleLabel: =""
-        Items: =RadioSample
-        X: =1085
-        Y: =133
-        ZIndex: =7
-
-    Toggle_Sample As toggleSwitch:
-        AccessibleLabel: ="Toggle_Sample"
-        X: =1217
-        Y: =144
-        ZIndex: =8
-
-    Label_Dropdown As label:
-        Text: ="Drop down"
-        X: =501
-        Y: =158
-        ZIndex: =9
-
-    Label_Combobox As label:
-        Text: ="Combo box"
-        X: =501
-        Y: =248
-        ZIndex: =10
-
-    Label_Datepicker As label:
-        Text: ="Date picker"
-        X: =501
-        Y: =345
-        ZIndex: =11
-
-    Label_Listbox As label:
-        Text: ="List box"
-        X: =501
-        Y: =435
-        ZIndex: =12
-
-    Label_Checkbox As label:
-        Text: ="Checkbox"
-        X: =940
-        Y: =93
-        ZIndex: =13
-
-    Checkbox_Sample1 As checkbox:
-        Text: ="Option"
-        X: =935
-        Y: =172
-        ZIndex: =14
-
-    Label_Radio As label:
-        Text: ="Radio"
-        X: =1090
-        Y: =93
-        ZIndex: =15
-
-    Label_Toggle As label:
-        Text: ="Toggle"
-        X: =1212
-        Y: =93
-        ZIndex: =16
-
-    Dropdown_Sample As dropdown:
-        AccessibleLabel: ="Dropdown_Sample"
-        Items: =DropDownSample
-        X: =501
-        Y: =193
-        ZIndex: =23
 
     Label_Instructions As label:
         BorderColor: =Button.FillDanger
@@ -130,24 +15,191 @@ InputControls As screen:
         Text: ="No need to copy/paste these controls - just for demo purposes."
         Width: =402
         X: =40
-        Y: =91
-        ZIndex: =24
-
-    TextInput_Sample As text:
-        AccessibleLabel: ="Example Text Input"
-        Default: ="Text input"
-        Tooltip: ="Example Text Input"
-        X: =498
-        Y: =100
-        ZIndex: =25
+        Y: =79
+        ZIndex: =21
 
     Footer_3 As Footer:
         Y: =699
-        ZIndex: =26
+        ZIndex: =22
 
     Header_2 As Header:
         IsDebugMode: =IsDebugMode
-        ZIndex: =27
+        ZIndex: =23
+
+    Checkbox As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =23
+
+        Checkbox_Sample1 As checkbox:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.Dotted
+            CheckboxBackgroundFill: =RGBA(0, 0, 0, 0)
+            CheckmarkFill: =CheckboxRadio.BorderColor
+            Color: =Label.TextColor
+            DisabledBorderColor: =
+            DisabledColor: =
+            FocusedBorderColor: =CheckboxRadio.BorderColor   
+            FocusedBorderThickness: =1
+            Height: =49
+            Text: ="Option"
+            Width: =145
+            X: =940
+            Y: =133
+            ZIndex: =5
+
+        Label_Checkbox As label:
+            Color: =Label.TextColor
+            Text: ="Checkbox"
+            X: =940
+            Y: =93
+            ZIndex: =6
+
+    Switch As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =23
+
+        Toggle_Sample As toggleSwitch:
+            AccessibleLabel: ="Toggle_Sample"
+            BorderColor: =
+            BorderStyle: =BorderStyle.Dotted
+            Color: =Label.TextColor
+            DisabledBorderColor: =
+            FalseFill: =Toggle.FalseFill
+            FocusedBorderColor: =Toggle.BorderColor
+            FocusedBorderThickness: =1
+            HandleFill: =Toggle.Handle
+            HoverBorderColor: =
+            PressedBorderColor: =
+            TrueFill: |
+                =Toggle.TrueFill
+            X: =1217
+            Y: =140
+            ZIndex: =1
+
+        Label_Toggle As label:
+            Color: =Label.TextColor
+            Text: ="Toggle"
+            X: =1212
+            Y: =93
+            ZIndex: =2
+
+    Radio As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =23
+
+        Radio_Sample As radio:
+            AccessibleLabel: =""
+            BorderColor: =
+            BorderStyle: =BorderStyle.Dotted
+            Color: =Label.TextColor
+            DisabledColor: =CheckboxRadio.Disabled
+            DisabledFill: =
+            FocusedBorderColor: =CheckboxRadio.BorderColor
+            FocusedBorderThickness: =1
+            Items: =RadioSample
+            RadioBackgroundFill: =CheckboxRadio.Background
+            RadioSelectionFill: =CheckboxRadio.BorderColor
+            Width: =116
+            X: =1085
+            Y: =133
+            ZIndex: =3
+
+        Label_Radio As label:
+            Color: =Label.TextColor
+            Text: ="Radio"
+            Width: =75
+            X: =1090
+            Y: =93
+            ZIndex: =4
+
+    Datepicker As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =23
+
+        DatePicker_Sample As datepicker:
+            AccessibleLabel: ="DatePicker_Sample"
+            Color: =Label.TextColor
+            Fill: =Input.Background
+            FocusedBorderColor: =Input.FocusBorder
+            HoverBorderColor: =DatePicker_Sample.BorderColor
+            HoverFill: =DatePicker_Sample.Fill
+            InputTextPlaceholder: =Text(Date(2001,12,31), Self.Format, Self.Language)
+            PressedBorderColor: =DatePicker_Sample.BorderColor
+            PressedFill: =DatePicker_Sample.Fill
+            X: =501
+            Y: =404
+            ZIndex: =9
+
+        Label_Datepicker As label:
+            Color: =Label.TextColor
+            Text: ="Date picker"
+            X: =501
+            Y: =369
+            ZIndex: =14
+
+    Dropdown As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =23
+
+        Dropdown_Sample As dropdown:
+            AccessibleLabel: ="Dropdown_Sample"
+            Color: =Label.TextColor
+            Fill: =Input.Background
+            FocusedBorderColor: =Input.FocusBorder
+            Items: =DropDownSample
+            X: =501
+            Y: =217
+            ZIndex: =12
+
+        Label_Dropdown As label:
+            Color: =Label.TextColor
+            Text: ="Drop down"
+            X: =501
+            Y: =182
+            ZIndex: =16
+
+    Combobox As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =23
+
+        ComboBox_Sample As combobox:
+            AccessibleLabel: ="ComboBox_Sample"
+            Color: =Label.TextColor
+            Fill: =Input.Background
+            FocusedBorderColor: =Input.FocusBorder
+            Items: =ComboBoxSample
+            MoreItemsButtonColor: =ComboBox_Sample.ChevronBackground
+            SearchItems: =Search(ComboBoxSample,ComboBox_Sample.SearchText,"Value1")
+            SelectionTagColor: =Colors.White
+            SelectionTagFill: =Colors.Primary1
+            X: =501
+            Y: =306
+            ZIndex: =10
+
+        Label_Combobox As label:
+            Color: =Label.TextColor
+            Text: ="Combo box"
+            X: =501
+            Y: =272
+            ZIndex: =15
 
     Button_Next_1 As button:
         Color: =Colors.TextMain
@@ -156,9 +208,104 @@ InputControls As screen:
         Text: ="Next"
         X: =Button.NavigationNextX
         Y: =Button.NavigationNextY
-        ZIndex: =29
+        ZIndex: =24
+
+    Textinput As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =24
+
+        TextInput_Sample As text:
+            AccessibleLabel: ="Example Text Input"
+            Color: =Label.TextColor
+            Default: =
+            Fill: =Input.Background
+            FocusedBorderColor: =Input.FocusBorder
+            HintText: ="Placeholder"
+            Tooltip: ="Example Text Input"
+            X: =501
+            Y: =137
+            ZIndex: =17
+
+        Label_Textinput As label:
+            Color: =Label.TextColor
+            FocusedBorderColor: =Input.FocusBorder
+            Text: ="Input"
+            X: =501
+            Y: =97
+            ZIndex: =18
+
+    Listbox As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =24
+
+        ListBox_Sample As listbox:
+            AccessibleLabel: ="ListBox_Sample"
+            Color: =Label.TextColor
+            Fill: =Input.Background
+            FocusedBorderColor: =Input.FocusBorder
+            Items: =ListboxSample
+            X: =501
+            Y: =495
+            ZIndex: =8
+
+        Label_Listbox As label:
+            Color: =Label.TextColor
+            Text: ="List box"
+            X: =501
+            Y: =459
+            ZIndex: =13
 
     Menu_2 As Menu:
         X: =1092
-        ZIndex: =30
+        ZIndex: =25
+
+    RichTextEditor As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =25
+
+        RichTextEditor_Sample As richTextEditor:
+            AccessibleLabel: ="RichTextEditor_Sample"
+            Default: ="Enter some <strong>rich text</strong> here."
+            Width: =402
+            X: =40
+            Y: =196
+            ZIndex: =11
+
+        Label_RichTextEditor As label:
+            Color: =Label.TextColor
+            Text: ="Rich Text Editor"
+            X: =40
+            Y: =157
+            ZIndex: =20
+
+    PenInput As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =26
+
+        PenInput_Sample As inkControl:
+            AccessibleLabel: ="PenInput_Sample"
+            Fill: =Input.Background
+            Width: =402
+            X: =40
+            Y: =400
+            ZIndex: =7
+
+        Label_PenInput As label:
+            Color: =Label.TextColor
+            Text: ="Pen Input"
+            X: =40
+            Y: =359
+            ZIndex: =19
 

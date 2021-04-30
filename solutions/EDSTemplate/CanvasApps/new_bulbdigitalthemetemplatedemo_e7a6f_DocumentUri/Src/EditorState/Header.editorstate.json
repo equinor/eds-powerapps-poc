@@ -1,5 +1,6 @@
 {
   "Header": {
+    "AllowAccessToGlobals": false,
     "ControlPropertyState": [
       "Fill",
       {
@@ -89,6 +90,7 @@
     "Type": "ControlInfo"
   },
   "Header_DebugInfo": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "DisplayMode",
       "DisabledFill",
@@ -273,6 +275,7 @@
     "Type": "ControlInfo"
   },
   "Header_Icon": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -523,6 +526,7 @@
     "Type": "ControlInfo"
   },
   "Header_Label_App": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -840,6 +844,7 @@
     "Type": "ControlInfo"
   },
   "Header_Label_Dept": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -1150,6 +1155,7 @@
     "Type": "ControlInfo"
   },
   "Header_Line_Bottom": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -1302,6 +1308,7 @@
     "Type": "ControlInfo"
   },
   "Header_Line_Top": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",

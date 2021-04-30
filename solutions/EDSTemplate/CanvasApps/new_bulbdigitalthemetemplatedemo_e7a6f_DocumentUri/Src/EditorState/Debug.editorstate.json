@@ -1,5 +1,6 @@
 {
   "Button_Back_4": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -202,7 +203,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Button_Back_4",
-    "ParentIndex": 1,
+    "ParentIndex": 5,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -390,6 +391,7 @@
     "Type": "ControlInfo"
   },
   "Debug": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       "ImagePosition",
@@ -470,6 +472,7 @@
     "Type": "ControlInfo"
   },
   "DebugToggle": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "HandleFill",
       "TextPosition",
@@ -583,7 +586,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "DebugToggle",
-    "ParentIndex": 5,
+    "ParentIndex": 4,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -741,6 +744,7 @@
     "Type": "ControlInfo"
   },
   "Footer_5": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
         "AFDDataSourceName": "",
@@ -793,6 +797,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
@@ -836,6 +841,7 @@
     "Type": "ControlInfo"
   },
   "Header_5": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       {
@@ -882,6 +888,7 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
@@ -930,6 +937,7 @@
     "Type": "ControlInfo"
   },
   "Label_Instructions_3": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -1072,7 +1080,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label_Instructions_3",
-    "ParentIndex": 3,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1275,6 +1283,7 @@
     "Type": "ControlInfo"
   },
   "Label1": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Live",
       "Overflow",
@@ -1382,7 +1391,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label1",
-    "ParentIndex": 4,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1585,6 +1594,7 @@
     "Type": "ControlInfo"
   },
   "Menu_5": {
+    "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
       {
@@ -1626,12 +1636,13 @@
     "IsLocked": false,
     "LayoutName": "",
     "Metadata": {
+      "AllowAccessToGlobals": false,
       "AllowCustomization": true,
       "Description": ""
     },
     "MetaDataIDKey": "",
     "Name": "Menu_5",
-    "ParentIndex": 2,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

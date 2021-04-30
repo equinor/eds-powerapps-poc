@@ -1,0 +1,50 @@
+name: import-solution-into-edsdevvnys
+# Deploy to environment on push. Used to make changes in VS Code and push the changes directly to the environment.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - edsdevfre
+
+jobs:
+  import-from-repo:
+    runs-on: windows-latest
+    env:
+      RUNNER_DEBUG: 1
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+        
+    - name: prepare packing
+      shell: cmd
+      run: >-
+        tools\pasopa -pack 
+        solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp
+        solutions\EDSTemplate\CanvasApps\new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      
+    - name: remove .msapp dir
+      shell: bash
+      run: >-
+        rm -rf 
+        solutions/EDSTemplate/CanvasApps/new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri
+      
+    - name: pack-solution
+      uses: 'microsoft/powerplatform-actions/pack-solution@v0'
+      with:
+        solution-file: 'out/packed/EDSTemplate.zip'
+        solution-folder: 'solutions/EDSTemplate'
+        solution-type: 'Unmanaged'
+        
+    - name: import-solution
+      uses: 'microsoft/powerplatform-actions/import-solution@v0'
+      with:
+        environment-url: 'https://edsdevfre.crm4.dynamics.com'
+        client-secret: ${{ secrets.password }}
+        app-id: 'dfab4afd-0e14-48ee-997e-04e8defbcf6f'
+        tenant-id: '3aa4a235-b6e2-48d5-9195-7fcf05b459b0'
+        solution-file: 'out/packed/EDSTemplate.zip'
+        force-overwrite: 'true'
+        activate-plugins: 'true'

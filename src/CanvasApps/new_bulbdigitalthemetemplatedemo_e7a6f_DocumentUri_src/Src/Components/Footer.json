@@ -1,0 +1,26 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentExtraMetadata": {
+    "ComponentDescription": ""
+  },
+  "ComponentManifest": {
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Footer",
+    "TemplateGuid": "8ff1c624584349e68faa7ebbc8a0a0fd"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "LastModifiedTimestamp": "637480479539712719",
+  "Name": "8ff1c624584349e68faa7ebbc8a0a0fd",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "00ac7dc5e8fc4926bd992a57aa349976",
+  "Version": "637480482867419041"
+}

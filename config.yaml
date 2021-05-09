@@ -1,0 +1,7 @@
+---
+prod: "https://edsprod.crm4.dynamics.com"
+dev: "https://edsdev.crm4.dynamics.com"
+fre: "https://edsdevfre.crm4.dynamics.com"
+vnys: "https://edsdevvnys.crm4.dynamics.com"
+msapp: "new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri.msapp"
+msappSrc: "new_bulbdigitalthemetemplatedemo_e7a6f_DocumentUri_src"

@@ -1,0 +1,6 @@
+$global:edsprod = "https://edsprod.crm4.dynamics.com"
+$global:edsdev = "https://edsdev.crm4.dynamics.com"
+$global:edsfre = "https://edsdevfre.crm4.dynamics.com"
+$global:edsvnys = "https://edsdevvnys.crm4.dynamics.com"
+$global:msapp = "heap_offshoreaktivitetsoversikt_9be02_DocumentUri.msapp"
+$global:msappSrc = "heap_offshoreaktivitetsoversikt_9be02_DocumentUri_src"

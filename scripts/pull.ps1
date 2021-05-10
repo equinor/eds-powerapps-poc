@@ -5,9 +5,10 @@ foreach ($line in $fileContent) { $content = $content + "`n" + $line }
 $config = ConvertFrom-YAML $content -Ordered
 
 $msapp = $config.msapp
-$srcDir = $config.msappSrc
+$msappSrc = $config.msappSrc
 
-#echo $config.msapp 
+$msappFile = Join-Path (Resolve-Path .\).Path src\CanvasApps\$msapp
+$msappSrcDir = Join-Path (Resolve-Path .\).Path src\CanvasApps\$msappSrc 
 
 Write-Host "Export solution from environment"
 if (Test-Path "in") { Remove-Item "in" -Recurse }
@@ -21,5 +22,5 @@ SolutionPackager /action Extract /ZipFile .\in\solution.zip /Folder .\src\ /Pack
 Remove-Item "in" -Recurse
 
 Write-Host "Unpack msapp file"
-PASopa -unpack .\src\CanvasApps\$msapp
-Remove-Item .\src\CanvasApps\$msapp
+PASopa -unpack $msappFile $msappSrcDir
+Remove-Item .\src\CanvasApps\$ msapp

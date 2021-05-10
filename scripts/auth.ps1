@@ -4,7 +4,6 @@ $content = ''
 foreach ($line in $fileContent) { $content = $content + "`n" + $line }
 $config = ConvertFrom-YAML $content -Ordered
 
-
 pac auth clear
 Write-Host "Authenticate for EDS Prod"
 pac auth create --url $config.prod

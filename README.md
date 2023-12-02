@@ -1,4 +1,4 @@
-# EDS Power Apps POC
+# EDS Power Apps POC (ARCHIVED)
 
 This repository is for evaluating how to support Power Apps in the [Equinor Design System](https://eds.equinor.com). The content will be moved to the [EDS repo](https://github.com/equinor/design-system) once we know what we’re doing 😉 We’re currently using Github actions to export and import into different environments, but we also keep an eye on the [ALM Accelerator](https://github.com/microsoft/coe-starter-kit) in the CoE Start Kit, so we may switch to that at some point once they have the Github version up and and running.
 
@@ -17,3 +17,9 @@ So then all we need is a mac version of [Power Apps CLI](https://docs.microsoft.
 We use an MIT license in the EDS. The Bulb Digital template does not have a license, but we’ve clarified with [Michael Wright](https://www.linkedin.com/in/michaelvwright) in Bulb Digital that we can modifiy their template under an MIT license. He has [a YouTube video](https://www.youtube.com/watch?v=aRzVPkHkUPg&lc=Ugzomw4tOtIHcHxvroJ4AaABAg.9MfEPRV2VBG9MgzT0ISbtv) where he explains how the template is made and [an earlier video](https://www.youtube.com/watch?v=gnE1PuwUKqs) on how to use it.  
 
 ![image](https://user-images.githubusercontent.com/2081882/116526023-71782180-a8d9-11eb-9f39-51b5f9546034.png)
+
+
+## Archived
+
+This repository was archived 02.12.23 by @hjaf for compliance with Equinor [SCM Policy and the GitHub Organisation](https://developer.equinor.com/governance/scm-policy/#equinor-github-organization)
+The content can be considered as history of [equinor/EDSPowerPlatform](https://github.com/equinor/EDSPowerPlatform), where this work is continued.
